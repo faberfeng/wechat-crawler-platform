@@ -6,7 +6,9 @@ from sqlalchemy.orm import Session
 
 from app.services.crawler.wechat_crawler import WeChatCrawler
 from app.services.crawler.browser_pool import BrowserPool
-from app.models.account import Account, Article, CrawlTask
+from app.models.account import Account
+from app.models.article import Article
+from app.models.crawl_task import CrawlTask
 from app.db.base import SessionLocal
 from app.core.config import settings
 from app.core.logger import logger

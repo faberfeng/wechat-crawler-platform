@@ -4,16 +4,16 @@ from typing import Optional
 from pathlib import Path
 
 from app.db.base import get_db
-from app.models.account import Account, Article, CrawlTask
-from app.schemas.article import ArticleResponse, ArticleListResponse, ArticleDetailResponse
-from app.core.config import settings
+from app.models.account import Account
+from app.models.article import Article
+from app.models.crawl_task import CrawlTask
 from app.core.logger import logger
 
 router = APIRouter(prefix="/articles", tags=["文章管理"])
 
 
-@router.get("", response_model=ArticleListResponse, summary="获取文章列表")
-async def get_articles(
+@router.get("", summary="获取文章列表")
+def get_articles(
     account_id: Optional[int] = Query(None, description="公众号 ID"),
     keyword: Optional[str] = Query(None, description="关键词搜索"),
     start_date: Optional[str] = Query(None, description="开始日期 (YYYY-MM-DD)"),
@@ -42,10 +42,16 @@ async def get_articles(
         query = query.filter(Article.title.contains(keyword))
 
     if start_date:
-        query = query.filter(Article.publish_time >= start_date)
+        try:
+            query = query.filter(Article.publish_time >= start_date)
+        except:
+            pass
 
     if end_date:
-        query = query.filter(Article.publish_time <= end_date)
+        try:
+            query = query.filter(Article.publish_time <= end_date)
+        except:
+            pass
 
     # 总数
     total = query.count()
@@ -56,55 +62,75 @@ async def get_articles(
     ).limit(page_size).all()
 
     # 填充公众号名称
+    result = []
     for article in articles:
-        account = db.query(Account).get(article.account_id)
-        if account:
-            article.account_name = account.name
+        account = db.query(Account).filter(Account.id == article.account_id).first()
+        article_dict = {
+            "id": article.id,
+            "account_id": article.account_id,
+            "account_name": account.name if account else "",
+            "title": article.title,
+            "url": article.url,
+            "publish_time": article.publish_time.isoformat() if article.publish_time else None,
+            "read_count": article.read_count,
+            "like_count": article.like_count,
+            "cover_img": article.cover_img,
+            "author": article.author,
+            "created_at": article.created_at.isoformat() if article.created_at else None
+        }
+        result.append(article_dict)
 
-    return ArticleListResponse(
-        items=articles,
-        total=total,
-        page=page,
-        page_size=page_size
-    )
+    return {
+        "items": result,
+        "total": total,
+        "page": page,
+        "page_size": page_size
+    }
 
 
-@router.get("/{article_id}", response_model=ArticleDetailResponse, summary="获取文章详情")
-async def get_article(
+@router.get("/{article_id}", summary="获取文章详情")
+def get_article(
     article_id: int,
     db: Session = Depends(get_db)
 ):
-    """获取文章详情（包含 Markdown 内容）"""
-    article = db.query(Article).get(article_id)
+    """获取文章详情"""
+    article = db.query(Article).filter(Article.id == article_id).first()
     if not article:
         raise HTTPException(status_code=404, detail="文章不存在")
 
     # 填充公众号名称
-    account = db.query(Account).get(article.account_id)
-    if account:
-        article.account_name = account.name
+    account = db.query(Account).filter(Account.id == article.account_id).first()
+
+    article_dict = {
+        "id": article.id,
+        "account_id": article.account_id,
+        "account_name": account.name if account else "",
+        "title": article.title,
+        "url": article.url,
+        "publish_time": article.publish_time.isoformat() if article.publish_time else None,
+        "read_count": article.read_count,
+        "like_count": article.like_count,
+        "cover_img": article.cover_img,
+        "author": article.author,
+        "created_at": article.created_at.isoformat() if article.created_at else None,
+        "markdown_content": ""
+    }
 
     # 读取 Markdown 内容
-    markdown_content = None
     if article.markdown_path:
         try:
-            markdown_file = Path(settings.MARKDOWN_DIR) / article.markdown_path.replace(f"{settings.MARKDOWN_DIR}/", "")
+            markdown_file = Path(article.markdown_path)
             if markdown_file.exists():
                 with open(markdown_file, 'r', encoding='utf-8') as f:
-                    markdown_content = f.read()
+                    article_dict["markdown_content"] = f.read()
         except Exception as e:
             logger.warning(f"读取 Markdown 文件失败: {e}")
 
-    return ArticleDetailResponse(
-        **{
-            **article.__dict__,
-            'markdown_content': markdown_content
-        }
-    )
+    return article_dict
 
 
 @router.get("/{article_id}/markdown", summary="获取原始 Markdown 内容")
-async def get_article_markdown(
+def get_article_markdown(
     article_id: int,
     db: Session = Depends(get_db)
 ):
@@ -113,7 +139,7 @@ async def get_article_markdown(
 
     如果 Markdown 文件不存在或读取失败，返回空字符串
     """
-    article = db.query(Article).get(article_id)
+    article = db.query(Article).filter(Article.id == article_id).first()
     if not article:
         raise HTTPException(status_code=404, detail="文章不存在")
 
@@ -121,7 +147,7 @@ async def get_article_markdown(
         return {"markdown_content": ""}
 
     try:
-        markdown_file = Path(settings.MARKDOWN_DIR) / article.markdown_path.replace(f"{settings.MARKDOWN_DIR}/", "")
+        markdown_file = Path(article.markdown_path)
         if markdown_file.exists():
             with open(markdown_file, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()
@@ -133,12 +159,12 @@ async def get_article_markdown(
 
 
 @router.delete("/{article_id}", summary="删除文章")
-async def delete_article(
+def delete_article(
     article_id: int,
     db: Session = Depends(get_db)
 ):
     """删除指定文章"""
-    article = db.query(Article).get(article_id)
+    article = db.query(Article).filter(Article.id == article_id).first()
     if not article:
         raise HTTPException(status_code=404, detail="文章不存在")
 
@@ -152,7 +178,7 @@ async def delete_article(
 
 
 @router.get("/stats/summary", summary="获取统计数据")
-async def get_stats(
+def get_stats(
     db: Session = Depends(get_db)
 ):
     """
@@ -175,7 +201,7 @@ async def get_stats(
         CrawlTask.status == "success"
     ).order_by(CrawlTask.finished_at.desc()).first()
 
-    latest_crawl_time = latest_task.finished_at if latest_task else None
+    latest_crawl_time = latest_task.finished_at.isoformat() if latest_task and latest_task.finished_at else None
 
     return {
         "total_accounts": total_accounts,

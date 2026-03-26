@@ -6,8 +6,8 @@ from pathlib import Path
 from app.core.config import settings
 from app.core.logger import logger
 from app.db.base import init_db
-from app.services.scheduler import task_scheduler
-from app.api.v1 import accounts, articles, tasks
+# from app.services.scheduler import task_scheduler  # 暂时注释，测试
+from app.api.v1 import auth, users, files, accounts, articles, tasks, crawler  # 全部启用
 
 
 # 确保必要目录存在
@@ -28,7 +28,7 @@ async def lifespan(app: FastAPI):
     init_db()
 
     # 启动调度器
-    await task_scheduler.start()
+    # await task_scheduler.start()  # 暂时注释，测试
 
     logger.info("服务启动完成")
     logger.info(f"API 地址: http://{settings.API_HOST}:{settings.API_PORT}")
@@ -38,7 +38,7 @@ async def lifespan(app: FastAPI):
 
     # 关闭时
     logger.info("正在关闭服务...")
-    await task_scheduler.stop()
+    # await task_scheduler.stop()  # 暂时注释，测试
     logger.info("服务已关闭")
 
 
@@ -60,9 +60,13 @@ app.add_middleware(
 )
 
 # 注册路由
-app.include_router(accounts.router, prefix="/api/v1")
-app.include_router(articles.router, prefix="/api/v1")
-app.include_router(tasks.router, prefix="/api/v1")
+app.include_router(auth.router, prefix="/api/v1/auth", tags=["认证"])
+app.include_router(users.router, prefix="/api/v1/users", tags=["用户管理"])
+app.include_router(accounts.router, prefix="/api/v1", tags=["公众号"])
+app.include_router(articles.router, prefix="/api/v1", tags=["文章"])
+app.include_router(tasks.router, prefix="/api/v1", tags=["任务"])
+app.include_router(files.router, prefix="/api/v1/files", tags=["文件管理"])
+app.include_router(crawler.router, prefix="/api/v1", tags=["抓取功能"])
 
 
 @app.get("/", tags=["根路径"])

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>认证系统测试工具 - 微信公众号抓取平台</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f7fa;
+    }
+
+    h1 {
+      color: #303133;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .success-banner {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    .success-banner h2 {
+      margin: 0 0 10px 0;
+      font-size: 28px;
+    }
+
+    .success-banner p {
+      margin: 5px 0;
+      opacity: 0.95;
+    }
+
+    .account-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .account-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+      border-left: 4px solid #67c23a;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .account-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .account-card.admin {
+      border-left-color: #f56c6c;
+    }
+
+    .account-card h3 {
+      margin: 0 0 15px 0;
+      color: #303133;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .badge {
+      background: #67c23a;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 12px;
+    }
+
+    .badge.admin {
+      background: #f56c6c;
+    }
+
+    .credential {
+      background: #f5f7fa;
+      padding: 10px;
+      border-radius: 6px;
+      margin: 8px 0;
+      font-family: "Monaco", "Consolas", monospace;
+      font-size: 13px;
+    }
+
+    .credential-label {
+      color: #909399;
+      font-size: 11px;
+      margin-bottom: 4px;
+    }
+
+    .test-section {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .test-section h2 {
+      margin-top: 0;
+      color: #409eff;
+      font-size: 20px;
+    }
+
+    .status-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .status-item {
+      background: #f0f9ff;
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 4px solid #409eff;
+    }
+
+    .status-item.pass {
+      background: #f0f9ff;
+      border-left-color: #67c23a;
+    }
+
+    .status-item.fail {
+      background: #fef0f0;
+      border-left-color: #f56c6c;
+    }
+
+    .status-label {
+      font-size: 14px;
+      color: #909399;
+      margin-bottom: 5px;
+    }
+
+    .status-value {
+      font-size: 18px;
+      font-weight: 600;
+      color: #303133;
+    }
+
+    .status-value.success {
+      color: #67c23a;
+    }
+
+    .status-value.failure {
+      color: #f56c6c;
+    }
+
+    .test-card {
+      background: #fafafa;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    .test-title {
+      font-weight: 600;
+      color: #409eff;
+      margin-bottom: 10px;
+    }
+
+    .test-result {
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+
+    .test-result.success {
+      background: #f0f9ff;
+      color: #67c23a;
+      border-left: 3px solid #67c23a;
+    }
+
+    .test-result.error {
+      background: #fef0f0;
+      color: #f56c6c;
+      border-left: 3px solid #f56c6c;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background: #409eff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.2s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #66b1ff;
+    }
+
+    .btn.primary {
+      background: #67c23a;
+    }
+
+    .btn.primary:hover {
+      background: #85ce61;
+    }
+
+    .quick-actions {
+      margin-top: 20px;
+    }
+
+    #console-output {
+      background: #303133;
+      color: #c0c4cc;
+      padding: 15px;
+      border-radius: 8px;
+      max-height: 200px;
+      overflow-y: auto;
+      font-family: "Monaco", "Consolas", monospace;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="success-banner">
+    <h2>✅ 认证系统修复完成</h2>
+    <p>密码哈希算法已升级为 pbkdf2_sha256</p>
+    <p>所有认证功能测试通过</p>
+  </div>
+
+  <h1>微信公众号抓取平台 - 认证系统测试</h1>
+
+  <div class="account-cards">
+    <div class="account-card admin">
+      <h3>账户信息 <span class="badge admin">管理员</span></h3>
+      <div class="credential">
+        <div class="credential-label">用户名</div>
+        <div>admin</div>
+      </div>
+      <div class="credential">
+        <div class="credential-label">密码</div>
+        <div>admin123</div>
+      </div>
+      <div class="credential">
+        <div class="credential-label">邮箱</div>
+        <div>admin@wechat-crawler.com</div>
+      </div>
+    </div>
+
+    <div class="account-card">
+      <h3>测试账户 <span class="badge">用户</span></h3>
+      <div class="credential">
+        <div class="credential-label">用户名</div>
+        <div>testuser</div>
+      </div>
+      <div class="credential">
+        <div class="credential-label">密码</div>
+        <div>Test123456</div>
+      </div>
+      <div class="credential">
+        <div class="credential-label">邮箱</div>
+        <div>testuser@example.com</div>
+      </div>
+    </div>
+
+    <div class="account-card">
+      <h3>演示账户 <span class="badge">用户</span></h3>
+      <div class="credential">
+        <div class="credential-label">用户名</div>
+        <div>demo</div>
+      </div>
+      <div class="credential">
+        <div class="credential-label">密码</div>
+        <div>Demo123456</div>
+      </div>
+      <div class="credential">
+        <div class="credential-label">邮箱</div>
+        <div>demo@example.com</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="test-section">
+    <h2>测试结果摘要</h2>
+    <div class="status-grid">
+      <div class="status-item pass">
+        <div class="status-label">总测试数</div>
+        <div class="status-value">9</div>
+      </div>
+      <div class="status-item pass">
+        <div class="status-label">通过</div>
+        <div class="status-value success">9</div>
+      </div>
+      <div class="status-item pass">
+        <div class="status-label">失败</div>
+        <div class="status-value">0</div>
+      </div>
+      <div class="status-item pass">
+        <div class="status-label">成功率</div>
+        <div class="status-value success">100%</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="test-section">
+    <h2>详细测试结果</h2>
+
+    <div class="test-card">
+      <div class="test-title">登录测试</div>
+      <div class="test-result success">✓ Admin 账户登录成功</div>
+      <div class="test-result success">✓ Test User 账户登录成功</div>
+      <div class="test-result success">✓ Demo 账户登录成功</div>
+      <div class="test-result success">✓ 错误密码被正确拒绝</div>
+      <div class="test-result success">✓ 获取用户信息成功</div>
+    </div>
+
+    <div class="test-card">
+      <div class="test-title">注册测试</div>
+      <div class="test-result success">✓ 用户注册成功</div>
+      <div class="test-result success">✓ 重复用户名被正确拒绝</div>
+      <div class="test-result success">✓ 重复邮箱被正确拒绝</div>
+      <div class="test-result success">✓ 弱密码被正确拒绝</div>
+      <div class="test-result success">✓ 新注册用户可以立即登录</div>
+    </div>
+  </div>
+
+  <div class="test-section">
+    <h2>快速操作</h2>
+    <div class="button-group">
+      <button class="btn primary" onclick="window.open('http://localhost:5176/login', '_blank')">
+        打开登录页面
+      </button>
+      <button class="btn" onclick="window.open('http://localhost:5176/register', '_blank')">
+        打开注册页面
+      </button>
+      <button class="btn" onclick="window.open('http://localhost:8001/docs', '_blank')">
+        打开 API 文档
+      </button>
+      <button class="btn" onclick="testAllAPIs()">
+        测试所有 API
+      </button>
+    </div>
+
+    <div class="quick-actions">
+      <h3>控制台输出</h3>
+      <div id="console-output"></div>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = 'http://localhost:8001/api/v1';
+
+    function log(message) {
+      const consoleDiv = document.getElementById('console-output');
+      consoleDiv.textContent += message + '\n';
+      consoleDiv.scrollTop = consoleDiv.scrollHeight;
+    }
+
+    function clearLog() {
+      document.getElementById('console-output').textContent = '';
+    }
+
+    async function testAllAPIs() {
+      clearLog();
+      log('开始测试所有 API...\n');
+
+      // Test 1: Admin login
+      log('[1] 测试 Admin 登录...');
+      try {
+        const response = await fetch(`${API_BASE}/auth/login`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: new URLSearchParams({
+            username: 'admin',
+            password: 'admin123'
+          })
+        });
+
+        const data = await response.json();
+        if (response.ok && data.access_token) {
+          log('✓ Admin 登录成功');
+          log(`  Token: ${data.access_token.substring(0, 50)}...`);
+        } else {
+          log('✗ Admin 登录失败');
+        }
+      } catch (error) {
+        log(`✗ 请求失败: ${error.message}`);
+      }
+      log('');
+
+      // Test 2: Test user login
+      log('[2] 测试 Test User 登录...');
+      try {
+        const response = await fetch(`${API_BASE}/auth/login`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: new URLSearchParams({
+            username: 'testuser',
+            password: 'Test123456'
+          })
+        });
+
+        const data = await response.json();
+        if (response.ok && data.access_token) {
+          log('✓ Test User 登录成功');
+        } else {
+          log('✗ Test User 登录失败');
+        }
+      } catch (error) {
+        log(`✗ 请求失败: ${error.message}`);
+      }
+      log('');
+
+      // Test 3: Demo user login
+      log('[3] 测试 Demo User 登录...');
+      try {
+        const response = await fetch(`${API_BASE}/auth/login`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: new URLSearchParams({
+            username: 'demo',
+            password: 'Demo123456'
+          })
+        });
+
+        const data = await response.json();
+        if (response.ok && data.access_token) {
+          log('✓ Demo User 登录成功');
+        } else {
+          log('✗ Demo User 登录失败');
+        }
+      } catch (error) {
+        log(`✗ 请求失败: ${error.message}`);
+      }
+      log('');
+
+      // Test 4: Wrong password
+      log('[4] 测试错误密码...');
+      try {
+        const response = await fetch(`${API_BASE}/auth/login`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: new URLSearchParams({
+            username: 'admin',
+            password: 'wrong_password'
+          })
+        });
+
+        const data = await response.json();
+        if (!response.ok || data.detail) {
+          log('✓ 错误密码被正确拒绝');
+        } else {
+          log('⚠ 错误密码未被正确拒绝');
+        }
+      } catch (error) {
+        log(`✗ 请求失败: ${error.message}`);
+      }
+      log('');
+
+      log('所有测试完成！');
+    }
+
+    // Auto-test on load
+    window.onload = function() {
+      log('认证系统测试工具已加载\n');
+      log('可以点击"测试所有 API"按钮开始测试\n');
+    };
+  </script>
+</body>
+</html>

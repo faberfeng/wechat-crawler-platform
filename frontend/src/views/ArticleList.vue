@@ -1,227 +1,357 @@
 <template>
-  <div class="article-list">
-    <el-card>
-      <el-form :inline="true" :model="filters" class="search-form">
-        <el-form-item label="公众号">
+  <div class="article-list-container">
+    <!-- 页面标题 -->
+    <div class="page-header">
+      <h1>文章列表</h1>
+      <p>搜索和管理抓取的文章</p>
+    </div>
+
+    <!-- 搜索和筛选 -->
+    <el-card class="filter-card">
+      <el-row :gutter="20">
+        <el-col :xs="24" :sm="12" :md="8">
+          <el-input
+            v-model="filters.keyword"
+            placeholder="搜索标题"
+            clearable
+            :prefix-icon="Search"
+            @change="handleFilterChange"
+          />
+        </el-col>
+
+        <el-col :xs="24" :sm="12" :md="8">
           <el-select
             v-model="filters.account_id"
             placeholder="选择公众号"
             clearable
-            style="width: 200px"
+            @change="handleFilterChange"
+            style="width: 100%"
           >
             <el-option
-              v-for="acc in accountOptions"
-              :key="acc.id"
-              :label="acc.name"
-              :value="acc.id"
+              v-for="account in accountList"
+              :key="account.id"
+              :label="account.name"
+              :value="account.id"
             />
           </el-select>
-        </el-form-item>
-        <el-form-item label="关键词">
-          <el-input
-            v-model="filters.keyword"
-            placeholder="搜索标题"
-            style="width: 200px"
-            clearable
-            @keyup.enter="handleSearch"
-          />
-        </el-form-item>
-        <el-form-item>
-          <el-button type="primary" @click="handleSearch">
-            <el-icon><Search /></el-icon>
-            搜索
+        </el-col>
+
+        <el-col :xs="24" :sm="24" :md="8" style="text-align: right">
+          <el-button :icon="Refresh" @click="loadArticles" :loading="loading">
+            刷新
           </el-button>
-          <el-button @click="handleReset">
-            <el-icon><RefreshLeft /></el-icon>
-            重置
-          </el-button>
-        </el-form-item>
-      </el-form>
-
-      <el-table :data="articles" v-loading="loading" stripe>
-        <el-table-column prop="title" label="标题" min-width="300">
-          <template #default="{ row }">
-            <el-link type="primary" @click="viewArticle(row)">
-              {{ row.title }}
-            </el-link>
-          </template>
-        </el-table-column>
-        <el-table-column prop="account_name" label="公众号" width="150" />
-        <el-table-column prop="publish_time" label="发布时间" width="160">
-          <template #default="{ row }">
-            {{ formatDate(row.publish_time) }}
-          </template>
-        </el-table-column>
-        <el-table-column prop="read_count" label="阅读" width="100" align="right" />
-        <el-table-column prop="like_count" label="在看" width="100" align="right" />
-        <el-table-column label="操作" width="120">
-          <template #default="{ row }">
-            <el-button size="small" @click="openUrl(row.url)" type="primary" link>
-              原文
-            </el-button>
-            <el-button size="small" @click="viewArticle(row)" type="primary" link>
-              详情
-            </el-button>
-          </template>
-        </el-table-column>
-      </el-table>
-
-      <el-pagination
-        v-model:current-page="pagination.page"
-        v-model:page-size="pagination.page_size"
-        :total="pagination.total"
-        :page-sizes="[10, 20, 50, 100]"
-        layout="total, sizes, prev, pager, next, jumper"
-        @current-change="loadArticles"
-        @size-change="loadArticles"
-        style="margin-top: 20px; justify-content: center;"
-      />
-
-      <div class="empty" v-if="!loading && articles.length === 0">
-        <el-empty description="暂无文章" />
-      </div>
+        </el-col>
+      </el-row>
     </el-card>
 
-    <!-- 文章详情抽屉 -->
-    <el-drawer v-model="showDetail" title="文章详情" size="70%" @open="loadDetail">
-      <div v-loading="detailLoading">
-        <div v-if="currentArticle">
-          <h2>{{ currentArticle.title }}</h2>
-          <div class="meta">
-            <span>{{ currentArticle.account_name }}</span>
-            <span>{{ formatDate(currentArticle.publish_time) }}</span>
-          </div>
-          <MarkdownViewer v-if="currentArticle.markdown_content" :content="currentArticle.markdown_content" />
-          <div v-else class="no-content">暂无内容</div>
+    <!-- 文章列表 -->
+    <el-card class="list-card">
+      <template #header>
+        <span class="card-title">
+          共 {{ total }} 篇文章
+        </span>
+      </template>
+
+      <el-skeleton :loading="loading" :rows="5" animated>
+        <el-table
+          :data="articleList"
+          stripe
+          v-loading="loading"
+          empty-text="暂无文章"
+        >
+          <el-table-column label="标题" min-width="200">
+            <template #default="{ row }">
+              <div class="article-title" @click="handleViewArticle(row)">
+                {{ row.title }}
+              </div>
+            </template>
+          </el-table-column>
+
+          <el-table-column label="公众号" width="120">
+            <template #default="{ row }">
+              <el-tag size="small">{{ row.account_name }}</el-tag>
+            </template>
+          </el-table-column>
+
+          <el-table-column label="阅读" width="80" align="center">
+            <template #default="{ row }">
+              {{ formatNumber(row.read_count) }}
+            </template>
+          </el-table-column>
+
+          <el-table-column label="点赞" width="80" align="center">
+            <template #default="{ row }">
+              {{ formatNumber(row.like_count) }}
+            </template>
+          </el-table-column>
+
+          <el-table-column label="发布时间" width="150">
+            <template #default="{ row }">
+              {{ formatDate(row.publish_time) }}
+            </template>
+          </el-table-column>
+
+          <el-table-column label="操作" width="150" fixed="right">
+            <template #default="{ row }">
+              <el-button
+                type="primary"
+                link
+                :icon="View"
+                @click="handleViewArticle(row)"
+              >
+                查看
+              </el-button>
+              <el-button
+                type="primary"
+                link
+                :icon="Share"
+                @click="handleOpenLink(row)"
+              >
+                打开
+              </el-button>
+            </template>
+          </el-table-column>
+        </el-table>
+
+        <!-- 分页 -->
+        <div class="pagination-container">
+          <el-pagination
+            v-model:current-page="currentPage"
+            v-model:page-size="pageSize"
+            :page-sizes="[10, 20, 50, 100]"
+            :total="total"
+            layout="total, sizes, prev, pager, next, jumper"
+            @size-change="loadArticles"
+            @current-change="loadArticles"
+          />
+        </div>
+      </el-skeleton>
+    </el-card>
+
+    <!-- 文章详情对话框 -->
+    <el-dialog
+      v-model="detailDialogVisible"
+      :title="currentArticle?.title"
+      width="80%"
+    >
+      <div v-loading="loadingDetail">
+        <div class="article-meta">
+          <el-tag>{{ currentArticle?.account_name }}</el-tag>
+          <el-space>
+            阅读: {{ formatNumber(currentArticle?.read_count) }}
+            点赞: {{ formatNumber(currentArticle?.like_count) }}
+          </el-space>
+        </div>
+
+        <div class="article-content">
+          <pre>{{ markdownContent }}</pre>
         </div>
       </div>
-    </el-drawer>
+
+      <template #footer>
+        <el-button @click="detailDialogVisible = false">关闭</el-button>
+        <el-button
+          v-if="currentArticle"
+          type="primary"
+          @click="handleOpenLink(currentArticle)"
+        >
+          打开原文
+        </el-button>
+      </template>
+    </el-dialog>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
 import { ElMessage } from 'element-plus'
-import dayjs from 'dayjs'
-import { getArticles } from '../api/articles'
-import { getAccounts } from '../api/accounts'
-import MarkdownViewer from '../components/MarkdownViewer.vue'
+import { Search, Refresh, View, Share } from '@element-plus/icons-vue'
+import { getArticleList, getArticle, deleteArticle, formatDate, formatNumber, openArticleUrl } from '@/api/articles'
+import { getAccountList } from '@/api/accounts'
 
-const articles = ref([])
-const accountOptions = ref([])
+// 响应式数据
 const loading = ref(false)
-const showDetail = ref(false)
-const detailLoading = ref(false)
-const currentArticle = ref(null)
+const articleList = ref([])
+const accountList = ref([])
+const total = ref(0)
+
+const currentPage = ref(1)
+const pageSize = ref(20)
 
 const filters = ref({
-  account_id: null,
-  keyword: ''
+  keyword: '',
+  account_id: null
 })
 
-const pagination = ref({
-  page: 1,
-  page_size: 20,
-  total: 0
-})
+const detailDialogVisible = ref(false)
+const currentArticle = ref(null)
+const markdownContent = ref('')
+const loadingDetail = ref(false)
 
-onMounted(async () => {
-  await Promise.all([loadAccounts(), loadArticles()])
-})
-
-async function loadAccounts() {
+// 方法
+const loadArticles = async () => {
   try {
-    accountOptions.value = await getAccounts()
-  } catch (error) {
-    console.error('加载公众号列表失败', error)
-  }
-}
+    loading.value = true
 
-async function loadArticles() {
-  loading.value = true
-  try {
     const params = {
-      page: pagination.value.page,
-      page_size: pagination.value.page_size,
-      account_id: filters.value.account_id || undefined,
-      keyword: filters.value.keyword || undefined
+      page: currentPage.value,
+      page_size: pageSize.value
     }
-    const res = await getArticles(params)
-    articles.value = res.items
-    pagination.value.total = res.total
+
+    if (filters.value.keyword) {
+      params.keyword = filters.value.keyword
+    }
+
+    if (filters.value.account_id) {
+      params.account_id = filters.value.account_id
+    }
+
+    const result = await getArticleList(params)
+
+    if (result?.items) {
+      articleList.value = result.items
+      total.value = result.total || 0
+    }
   } catch (error) {
-    ElMessage.error('加载文章列表失败：' + (error.message || '未知错误'))
+    console.error(error)
   } finally {
     loading.value = false
   }
 }
 
-function handleSearch() {
-  pagination.value.page = 1
-  loadArticles()
-}
-
-function handleReset() {
-  filters.value = { account_id: null, keyword: '' }
-  pagination.value.page = 1
-  loadArticles()
-}
-
-async function viewArticle(row) {
-  currentArticle.value = row
-  showDetail.value = true
-}
-
-async function loadDetail() {
-  if (!currentArticle.value) return
-
-  detailLoading.value = true
+const loadAccounts = async () => {
   try {
-    const { getArticle } = await import('../api/articles')
-    const detail = await getArticle(currentArticle.value.id)
-    currentArticle.value = { ...currentArticle.value, ...detail }
+    const result = await getAccountList({ active_only: true })
+    accountList.value = result || []
   } catch (error) {
-    ElMessage.error('加载文章详情失败：' + (error.message || '未知错误'))
-  } finally {
-    detailLoading.value = false
+    console.error(error)
   }
 }
 
-function openUrl(url) {
-  window.open(url, '_blank')
+const handleFilterChange = () => {
+  currentPage.value = 1
+  loadArticles()
 }
 
-function formatDate(time) {
-  return time ? dayjs(time).format('YYYY-MM-DD HH:mm') : '-'
+const handleViewArticle = async (row) => {
+  try {
+    currentArticle.value = row
+    detailDialogVisible.value = true
+
+    loadingDetail.value = true
+
+    const result = await getArticle(row.id)
+
+    if (result?.markdown_content) {
+      markdownContent.value = result.markdown_content
+    }
+  } catch (error) {
+    ElMessage.error('加载文章失败')
+    detailDialogVisible.value = false
+  } finally {
+    loadingDetail.value = false
+  }
 }
+
+const handleOpenLink = (row) => {
+  openArticleUrl(row.url)
+}
+
+// 生命周期
+onMounted(async () => {
+  await loadAccounts()
+  await loadArticles()
+})
 </script>
 
 <style scoped>
-.article-list {
+.article-list-container {
+  padding: 20px;
   max-width: 1400px;
   margin: 0 auto;
 }
 
-.search-form {
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-header h1 {
+  margin: 0 0 8px 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #303133;
+}
+
+.page-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #909399;
+}
+
+.filter-card {
   margin-bottom: 20px;
 }
 
-.empty {
-  padding: 40px 0;
+.list-card {
+  margin-bottom: 20px;
 }
 
-.meta {
-  color: #666;
-  margin: 10px 0 20px;
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #303133;
 }
 
-.meta span {
-  margin-right: 20px;
+.article-title {
+  font-size: 14px;
+  color: #303133;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
-.no-content {
-  text-align: center;
-  color: #999;
-  padding: 40px;
+.article-title:hover {
+  color: #409eff;
+}
+
+.pagination-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.article-meta {
+  margin-bottom: 20px;
+  padding: 12px;
+  background: #f5f7fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article-content {
+  min-height: 400px;
+  max-height: 600px;
+  overflow: auto;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 4px;
+}
+
+.article-content pre {
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .article-list-container {
+    padding: 12px;
+  }
+
+  .page-header h1 {
+    font-size: 24px;
+  }
 }
 </style>

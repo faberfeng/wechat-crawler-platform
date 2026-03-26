@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>微信公众号抓取平台 - 测试工具</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f7fa;
+    }
+
+    h1 {
+      color: #303133;
+      margin-bottom: 20px;
+    }
+
+    .test-section {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .test-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .test-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #409eff;
+      margin: 0;
+    }
+
+    .test-btn {
+      background: #409eff;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .test-btn:hover {
+      background: #66b1ff;
+    }
+
+    .test-btn:disabled {
+      background: #c0c4cc;
+      cursor: not-allowed;
+    }
+
+    .test-result {
+      margin-top: 15px;
+      padding: 15px;
+      border-radius: 4px;
+      font-family: "Monaco", "Consolas", monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    .success {
+      background: #f0f9ff;
+      border: 1px solid #b3d8ff;
+      color: #409eff;
+    }
+
+    .error {
+      background: #fef0f0;
+      border: 1px solid #fbc4c4;
+      color: #f56c6c;
+    }
+
+    .info {
+      background: #fdf6ec;
+      border: 1px solid #faecd8;
+      color: #e6a23c;
+    }
+
+    .summary {
+      background: #f0f9ff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .summary h2 {
+      margin-top: 0;
+      color: #409eff;
+    }
+
+    .summary-item {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+
+    .summary-label {
+      color: #909399;
+    }
+
+    .summary-value {
+      font-weight: 600;
+    }
+
+    .all-tests-btn {
+      width: 100%;
+      background: #67c23a;
+      padding: 12px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .all-tests-btn:hover {
+      background: #85ce61;
+    }
+
+    #console-output {
+      background: #303133;
+      color: #c0c4cc;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>微信公众号抓取平台 - 测试工具</h1>
+
+  <div class="test-section">
+    <button class="test-btn all-tests-btn" onclick="runAllTests()">运行所有测试</button>
+  </div>
+
+  <div id="test-container"></div>
+
+  <div class="test-section">
+    <h2>控制台输出</h2>
+    <div id="console-output"></div>
+  </div>
+
+  <div class="summary" id="summary" style="display: none;">
+    <h2>测试总结</h2>
+    <div class="summary-item">
+      <span class="summary-label">总测试数:</span>
+      <span class="summary-value" id="total-tests">0</span>
+    </div>
+    <div class="summary-item">
+      <span class="summary-label">通过:</span>
+      <span class="summary-value" style="color: #67c23a;" id="passed-tests">0</span>
+    </div>
+    <div class="summary-item">
+      <span class="summary-label">失败:</span>
+      <span class="summary-value" style="color: #f56c6c;" id="failed-tests">0</span>
+    </div>
+    <div class="summary-item">
+      <span class="summary-label">跳过:</span>
+      <span class="summary-value" style="color: #e6a23c;" id="skipped-tests">0</span>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = 'http://localhost:8001/api/v1';
+    let token = '';
+    let testResults = {
+      total: 0,
+      passed: 0,
+      failed: 0,
+      skipped: 0
+    };
+
+    function createTestSection(title, testName) {
+      return `
+        <div class="test-section" id="section-${testName}">
+          <div class="test-header">
+            <p class="test-title">${title}</p>
+            <button class="test-btn" onclick="runTest('${testName}')">运行测试</button>
+          </div>
+          <div class="test-result" style="display: none;" id="result-${testName}"></div>
+        </div>
+      `;
+    }
+
+    function showResult(testName, success, message) {
+      const resultDiv = document.getElementById(`result-${testName}`);
+      resultDiv.style.display = 'block';
+      resultDiv.className = 'test-result ' + (success ? 'success' : (message.includes('跳过') ? 'info' : 'error'));
+      resultDiv.textContent = message;
+
+      testResults.total++;
+      if (success) {
+        testResults.passed++;
+      } else if (message.includes('跳过')) {
+        testResults.skipped++;
+      } else {
+        testResults.failed++;
+      }
+
+      updateSummary();
+    }
+
+    function updateSummary() {
+      document.getElementById('total-tests').textContent = testResults.total;
+      document.getElementById('passed-tests').textContent = testResults.passed;
+      document.getElementById('failed-tests').textContent = testResults.failed;
+      document.getElementById('skipped-tests').textContent = testResults.skipped;
+      document.getElementById('summary').style.display = 'block';
+    }
+
+    function log(message) {
+      const consoleDiv = document.getElementById('console-output');
+      consoleDiv.textContent += message + '\n';
+      consoleDiv.scrollTop = consoleDiv.scrollHeight;
+    }
+
+    function clearLog() {
+      document.getElementById('console-output').textContent = '';
+    }
+
+    async function runTest(testName) {
+      clearLog();
+      log(`开始测试: ${testName}`);
+
+      switch(testName) {
+        case 'connection':
+          await testConnection();
+          break;
+        case 'register':
+          await testRegister();
+          break;
+        case 'login':
+          await testLogin();
+          break;
+        case 'get-me':
+          await testGetMe();
+          break;
+        case 'get-accounts':
+          await testGetAccounts();
+          break;
+        case 'get-articles':
+          await testGetArticles();
+          break;
+        case 'get-article-stats':
+          await testGetArticleStats();
+          break;
+        case 'get-files':
+          await testGetFiles();
+          break;
+        case 'get-file-stats':
+          await testGetFileStats();
+          break;
+        default:
+          log('未知测试');
+      }
+    }
+
+    async function testConnection() {
+      try {
+        const response = await fetch(`${API_BASE}/auth/me`);
+        log(`状态码: ${response.status}`);
+        showResult('connection', true, `✓ API 服务器响应正常\n状态码: ${response.status}`);
+      } catch (error) {
+        log(`连接失败: ${error.message}`);
+        showResult('connection', false, `✗ API 连接失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function testRegister() {
+      const timestamp = Date.now();
+      const userData = {
+        username: `testuser_${timestamp}`,
+        email: `test_${timestamp}@example.com`,
+        password: 'Test123456'
+      };
+
+      try {
+        const response = await fetch(`${API_BASE}/auth/register`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(userData)
+        });
+
+        const data = await response.json();
+        log(`状态码: ${response.status}`);
+        log(`响应: ${JSON.stringify(data, null, 2)}`);
+
+        if (response.ok) {
+          showResult('register', true, `✓ 注册成功\n数据: ${JSON.stringify(data)}`);
+        } else {
+          showResult('register', false, `✗ 注册失败\n状态码: ${response.status}\n数据: ${JSON.stringify(data)}`);
+        }
+      } catch (error) {
+        log(`请求失败: ${error.message}`);
+        showResult('register', false, `✗ 请求失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function testLogin() {
+      const loginData = new URLSearchParams({
+        username: 'admin',
+        password: 'admin123'
+      });
+
+      try {
+        const response = await fetch(`${API_BASE}/auth/login`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: loginData
+        });
+
+        const data = await response.json();
+        log(`状态码: ${response.status}`);
+        log(`响应: ${JSON.stringify(data, null, 2)}`);
+
+        if (response.ok && data.access_token) {
+          token = data.access_token;
+          showResult('login', true, `✓ 登录成功\nToken: ${token.substring(0, 50)}...`);
+        } else {
+          showResult('login', false, `✗ 登录失败\n状态码: ${response.status}\n数据: ${JSON.stringify(data)}`);
+        }
+      } catch (error) {
+        log(`请求失败: ${error.message}`);
+        showResult('login', false, `✗ 请求失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function testGetMe() {
+      if (!token) {
+        showResult('get-me', false, '⚠ 跳过（无 Token）\n请先运行登录测试');
+        return;
+      }
+
+      try {
+        const response = await fetch(`${API_BASE}/auth/me`, {
+          method: 'GET',
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+
+        const data = await response.json();
+        log(`状态码: ${response.status}`);
+        log(`响应: ${JSON.stringify(data, null, 2)}`);
+
+        if (response.ok) {
+          showResult('get-me', true, `✓ 成功\n用户: ${data.username}\n邮箱: ${data.email}\n角色: ${data.role}`);
+        } else {
+          showResult('get-me', false, `✗ 失败\n状态码: ${response.status}\n数据: ${JSON.stringify(data)}`);
+        }
+      } catch (error) {
+        log(`请求失败: ${error.message}`);
+        showResult('get-me', false, `✗ 请求失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function testGetAccounts() {
+      if (!token) {
+        showResult('get-accounts', false, '⚠ 跳过（无 Token）\n请先运行登录测试');
+        return;
+      }
+
+      try {
+        const response = await fetch(`${API_BASE}/accounts`, {
+          method: 'GET',
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+
+        const data = await response.json();
+        log(`状态码: ${response.status}`);
+
+        if (response.ok) {
+          showResult('get-accounts', true, `✓ 成功\n公众号数量: ${data.length}\n数据: ${JSON.stringify(data)}`);
+        } else {
+          showResult('get-accounts', false, `✗ 失败\n状态码: ${response.status}\n数据: ${JSON.stringify(data)}`);
+        }
+      } catch (error) {
+        log(`请求失败: ${error.message}`);
+        showResult('get-accounts', false, `✗ 请求失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function testGetArticles() {
+      if (!token) {
+        showResult('get-articles', false, '⚠ 跳过（无 Token）\n请先运行登录测试');
+        return;
+      }
+
+      try {
+        const response = await fetch(`${API_BASE}/articles`, {
+          method: 'GET',
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+
+        const data = await response.json();
+        log(`状态码: ${response.status}`);
+
+        if (response.ok) {
+          showResult('get-articles', true, `✓ 成功\n文章数量: ${data.length}\n数据: ${JSON.stringify(data)}`);
+        } else {
+          showResult('get-articles', false, `✗ 失败\n状态码: ${response.status}\n数据: ${JSON.stringify(data)}`);
+        }
+      } catch (error) {
+        log(`请求失败: ${error.message}`);
+        showResult('get-articles', false, `✗ 请求失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function testGetArticleStats() {
+      if (!token) {
+        showResult('get-article-stats', false, '⚠ 跳过（无 Token）\n请先运行登录测试');
+        return;
+      }
+
+      try {
+        const response = await fetch(`${API_BASE}/articles/stats/summary`, {
+          method: 'GET',
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+
+        const data = await response.json();
+        log(`状态码: ${response.status}`);
+
+        if (response.ok) {
+          showResult('get-article-stats', true, `✓ 成功\n数据: ${JSON.stringify(data)}`);
+        } else {
+          showResult('get-article-stats', false, `✗ 失败\n状态码: ${response.status}\n数据: ${JSON.stringify(data)}`);
+        }
+      } catch (error) {
+        log(`请求失败: ${error.message}`);
+        showResult('get-article-stats', false, `✗ 请求失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function testGetFiles() {
+      if (!token) {
+        showResult('get-files', false, '⚠ 跳过（无 Token）\n请先运行登录测试');
+        return;
+      }
+
+      try {
+        const response = await fetch(`${API_BASE}/files/`, {
+          method: 'GET',
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+
+        const data = await response.json();
+        log(`状态码: ${response.status}`);
+
+        if (response.ok) {
+          showResult('get-files', true, `✓ 成功\n文件数量: ${data.length}\n数据: ${JSON.stringify(data)}`);
+        } else {
+          showResult('get-files', false, `✗ 失败\n状态码: ${response.status}\n数据: ${JSON.stringify(data)}`);
+        }
+      } catch (error) {
+        log(`请求失败: ${error.message}`);
+        showResult('get-files', false, `✗ 请求失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function testGetFileStats() {
+      if (!token) {
+        showResult('get-file-stats', false, '⚠ 跳过（无 Token）\n请先运行登录测试');
+        return;
+      }
+
+      try {
+        const response = await fetch(`${API_BASE}/files/stats/summary`, {
+          method: 'GET',
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+
+        const data = await response.json();
+        log(`状态码: ${response.status}`);
+
+        if (response.ok) {
+          showResult('get-file-stats', true, `✓ 成功\n数据: ${JSON.stringify(data)}`);
+        } else {
+          showResult('get-file-stats', false, `✗ 失败\n状态码: ${response.status}\n数据: ${JSON.stringify(data)}`);
+        }
+      } catch (error) {
+        log(`请求失败: ${error.message}`);
+        showResult('get-file-stats', false, `✗ 请求失败\n错误: ${error.message}`);
+      }
+    }
+
+    async function runAllTests() {
+      clearLog();
+      testResults = { total: 0, passed: 0, failed: 0, skipped: 0 };
+      updateSummary();
+
+      log('开始运行所有测试...\n');
+
+      await testConnection();
+      await testRegister();
+      await testLogin();
+      await testGetMe();
+      await testGetAccounts();
+      await testGetArticles();
+      await testGetArticleStats();
+      await testGetFiles();
+      await testGetFileStats();
+
+      log('\n所有测试完成');
+      log(`总计: ${testResults.total}`);
+      log(`通过: ${testResults.passed}`);
+      log(`失败: ${testResults.failed}`);
+      log(`跳过: ${testResults.skipped}`);
+    }
+
+    // 初始化测试容器
+    function init() {
+      const container = document.getElementById('test-container');
+      container.innerHTML = [
+        createTestSection('测试 API 连接', 'connection'),
+        createTestSection('测试用户注册', 'register'),
+        createTestSection('测试用户登录', 'login'),
+        createTestSection('测试 /api/auth/me', 'get-me'),
+        createTestSection('测试 /api/accounts', 'get-accounts'),
+        createTestSection('测试 /api/articles', 'get-articles'),
+        createTestSection('测试 /api/articles/stats/summary', 'get-article-stats'),
+        createTestSection('测试 /api/files/', 'get-files'),
+        createTestSection('测试 /api/files/stats/summary', 'get-file-stats')
+      ].join('');
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -26,10 +26,16 @@ class Settings(BaseSettings):
 
     # 文件存储
     MARKDOWN_DIR: str = "./data/markdown"
+    MARKDOWN_STORAGE_PATH: str = "./data/markdown"
     AUTH_SESSIONS_DIR: str = "./data/auth_sessions"
 
     # CORS
-    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:3000"
+    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:5174,https://wechat-crawler-fwb.loca.lt,https://wechat-crawler-api-fwb.loca.lt,https://wechat-fwb.loca.lt,https://fwb-wechat.loca.lt"
+
+    # JWT 认证
+    SECRET_KEY: str = "your-secret-key-change-this-in-production-please"
+    ALGORITHM: str = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7  # 7 天
 
     class Config:
         env_file = ".env"

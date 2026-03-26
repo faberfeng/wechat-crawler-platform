@@ -1,5 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from pathlib import Path
 from app.core.config import settings
 from app.core.logger import logger
@@ -8,7 +9,7 @@ from app.core.logger import logger
 data_dir = Path("data")
 data_dir.mkdir(parents=True, exist_ok=True)
 
-# 创建 SQLite 引擎
+# 创建 SQLite 引擎（同步）
 DATABASE_URL = settings.DATABASE_URL
 engine = create_engine(
     DATABASE_URL,
@@ -16,20 +17,36 @@ engine = create_engine(
     echo=False  # 设置为True可以看到SQL语句
 )
 
-# 创建会话工厂
+# 创建会话工厂（同步）
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+# 创建异步引擎（用于 async/await）
+AsyncDatabaseURL = DATABASE_URL.replace("sqlite://", "sqlite+aiosqlite://")
+async_engine = create_async_engine(
+    AsyncDatabaseURL,
+    echo=False
+)
+
+# 创建异步会话工厂
+AsyncSessionLocal = sessionmaker(async_engine, class_=AsyncSession, expire_on_commit=False)
 
 # 基类
 Base = declarative_base()
 
 
 def get_db():
-    """获取数据库会话"""
+    """获取数据库会话（同步）"""
     db = SessionLocal()
     try:
         yield db
     finally:
         db.close()
+
+
+async def get_async_db():
+    """获取数据库会话（异步）"""
+    async with AsyncSessionLocal() as session:
+        yield session
 
 
 def init_db():
