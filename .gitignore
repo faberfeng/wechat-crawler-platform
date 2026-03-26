@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+
+# Node modules
+node_modules/
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.html
+article_to_publish.md
+output_article.md
+simple_article.md
+cover_gen_prompt.txt
