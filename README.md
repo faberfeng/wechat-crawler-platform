@@ -21,6 +21,14 @@
 - **实时监控**: 抓取任务状态实时更新
 - **数据可视化**: 直观的统计数据展示
 - **Markdown 预览**: 支持文章内容在线预览
+- **深色模式**: 支持深色/浅色主题切换
+- **响应式设计**: 完美适配桌面端和移动端
+
+### 🔐 安全特性
+- **用户认证**: 基于 JWT 的用户认证系统
+- **角色权限**: 支持管理员和普通用户角色
+- **会话管理**: 安全的会话存储和验证
+- **文件上传**: 支持安全的文件上传和管理
 
 ### 🛠️ 技术特性
 - **浏览器模拟**: 基于 Playwright 的真实浏览器环境
@@ -28,6 +36,65 @@
 - **登录态保持**: 自动保存和恢复微信登录状态
 - **错误重试**: 自动重试失败的抓取任务
 - **日志记录**: 完整的日志系统，便于调试
+- **环境适配**: 自动识别本地/公网环境并切换 API
+
+---
+
+## 🎬 功能展示
+
+### 仪表盘
+![仪表盘](screenshots/dashboard.png)
+
+> 实时展示系统运行状态，包括公众号数量、文章总数、最新抓取进度等
+
+### 公众号管理
+![公众号管理](screenshots/accounts.png)
+
+> 添加、编辑、删除公众号，查看公众号详细信息
+
+### 文章列表
+![文章列表](screenshots/articles.png)
+
+> 浏览所有抓取的文章，支持搜索、筛选、导出
+
+### 用户管理
+![用户管理](screenshots/users.png)
+
+> 管理系统用户，设置管理员权限
+
+### 文件管理
+![文件管理](screenshots/files.png)
+
+> 上传和管理文件，支持文件分类和下载
+
+---
+
+## 📖 使用示例
+
+### 示例 1: 添加公众号并抓取文章
+
+### 示例 2: 查询文章列表
+
+```javascript
+// 获取所有文章
+const articles = await fetch('https://wechat-crawler-api.loca.lt/api/v1/articles', {
+  headers: {
+    'Authorization': 'Bearer YOUR_TOKEN'
+  }
+}).then(res => res.json());
+
+console.log(`共 ${articles.length} 篇文章`);
+
+// 按关键词搜索
+const searchResults = await fetch(
+  'https://wechat-crawler-api.loca.lt/api/v1/articles?keyword=社区',
+  {
+    headers: {
+      'Authorization': 'Bearer YOUR_TOKEN'
+    }
+  }
+).then(res => res.json());
+```
 
 ## 🏗️ 技术栈
 
@@ -299,6 +366,29 @@ python3 login_wechat.py
 ## 📄 License
 
 [MIT License](LICENSE)
+
+---
+
+## 🐛 已知问题 & 待办事项
+
+查看 [ISSUES_TODO.md](ISSUES_TODO.md) 了解当前已知的问题和已规划的待办事项。
+
+欢迎提交 Issue 来报告新问题或提出功能建议！
+
+---
+
+## 🚀 部署 & CI/CD
+
+项目已配置 GitHub Actions 自动化流程：
+
+- **CI**: 自动运行测试和代码检查
+- **Deploy**: 自动部署到服务器
+
+详见：
+- [.github/workflows/ci.yml](.github/workflows/ci.yml) - 持续集成配置
+- [.github/workflows/deploy.yml](.github/workflows/deploy.yml) - 自动部署配置
+
+---
 
 ## 🤝 贡献
 
