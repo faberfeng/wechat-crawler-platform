@@ -392,7 +392,11 @@ python3 login_wechat.py
 
 ## 🤝 贡献
 
-欢迎提交 Issue 和 Pull Request！
+欢迎贡献代码、报告 Bug 或提出新功能！
+
+详见 [贡献指南](CONTRIBUTING.md) 了解如何参与项目开发。
+
+---
 
 ## 📮 联系方式
 
