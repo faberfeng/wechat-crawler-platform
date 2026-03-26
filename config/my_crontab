@@ -1,0 +1,2 @@
+# 微信公众号定时抓取 - 每天 7:00
+0 7 * * * cd ~/Desktop/wechat-crawler-platform && python3 crawl_articles.py --account-id 1 >> /tmp/wechat_crawl.log 2>&1
