@@ -1,11 +1,16 @@
 """
 文章模型
 """
-from datetime import datetime
+from datetime import datetime, timezone
 from sqlalchemy import Column, Integer, String, DateTime, Text, ForeignKey, text
 from sqlalchemy.orm import relationship
 
 from app.db.base import Base
+
+
+def get_now():
+    """获取当前时间（带时区）"""
+    return datetime.now(timezone.utc)
 
 
 class Article(Base):
@@ -28,7 +33,7 @@ class Article(Base):
 
     # 时间信息
     publish_time = Column(DateTime, nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=get_now, nullable=False)
 
     # 文件存储路径
     markdown_path = Column(String(500), nullable=True)

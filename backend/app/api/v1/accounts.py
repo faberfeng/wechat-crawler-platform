@@ -20,19 +20,31 @@ def create_account(
     """
     添加公众号
 
-    - **url**: 公众号任意文章链接
-    - **name**: 公众号名称（可选，会自动从文章页提取）
-    """
-    # 从 URL 提取 biz
-    if '__biz=' not in account.url:
-        raise HTTPException(status_code=400, detail="URL 中缺少 __biz 参数")
+    支持两种方式：
+    - **方式一**：提供公众号的文章链接，系统自动提取 biz
+    - **方式二**：直接提供 biz 参数
 
-    # 提取 biz
-    biz_start = account.url.find('__biz=')
-    biz_end = account.url.find('&', biz_start)
-    if biz_end == -1:
-        biz_end = len(account.url)
-    biz = account.url[biz_start + 6:biz_end]
+    - **url**: 公众号任意文章链接（可选）
+    - **biz**: 公众号 biz 参数（可选）
+    - **name**: 公众号名称（可选）
+    """
+    # 确定 biz 值
+    biz = account.biz
+
+    # 如果没有直接提供 biz，尝试从 URL 提取
+    if not biz and account.url:
+        if '__biz=' in account.url:
+            biz_start = account.url.find('__biz=')
+            biz_end = account.url.find('&', biz_start)
+            if biz_end == -1:
+                biz_end = len(account.url)
+            biz = account.url[biz_start + 6:biz_end]
+        else:
+            raise HTTPException(status_code=400, detail="URL 中缺少 __biz 参数，且未提供 biz 参数")
+
+    # 检查是否成功获取 biz
+    if not biz:
+        raise HTTPException(status_code=400, detail="无法获取 biz 参数，请提供 url 或 biz")
 
     if not biz:
         raise HTTPException(status_code=400, detail="无法从 URL 提取 biz 参数")

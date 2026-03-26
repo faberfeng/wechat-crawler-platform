@@ -13,7 +13,8 @@ class AccountBase(BaseModel):
 
 class AccountCreate(AccountBase):
     """创建公众号"""
-    url: str = Field(..., description="公众号任意文章链接")
+    url: Optional[str] = Field(None, description="公众号任意文章链接（可选，如果提供了 biz 则不需要）")
+
 
 
 class AccountUpdate(BaseModel):
