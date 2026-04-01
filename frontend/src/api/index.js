@@ -13,11 +13,11 @@ const getApiBaseURL = () => {
 
   // 本地开发环境
   if (hostname === 'localhost' || hostname === '127.0.0.1') {
-    return 'http://localhost:8002/api/v1'
+    return 'http://localhost:8000/api/v1'
   }
 
   // 其他环境默认使用本地
-  return 'http://localhost:8002/api/v1'
+  return 'http://localhost:8000/api/v1'
 }
 
 const api = axios.create({

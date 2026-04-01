@@ -27,11 +27,21 @@ fi
 echo "📍 项目目录: $PROJECT_DIR"
 echo ""
 
-# 安装后端依赖
-echo "📦 安装后端依赖..."
-cd backend
-pip3 install -r requirements.txt
-cd ..
+# 安装后端依赖（仅在 venv 不存在时）
+if [ -d "backend/venv" ]; then
+    echo "📦 虚拟环境已存在，跳过依赖安装"
+else
+    echo "🔧 创建 Python 虚拟环境..."
+    cd backend
+    python3 -m venv venv
+    cd ..
+
+    echo "📦 安装后端依赖..."
+    cd backend
+    source venv/bin/activate
+    pip install -r requirements.txt
+    cd ..
+fi
 
 # 安装前端依赖
 echo "📦 安装前端依赖..."
@@ -43,6 +53,7 @@ cd ..
 echo ""
 echo "🚀 启动后端服务..."
 cd backend
+source venv/bin/activate
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload &
 BACKEND_PID=$!
 cd ..
