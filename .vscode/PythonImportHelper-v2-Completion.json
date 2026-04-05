@@ -1,0 +1,4162 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "app.models.article",
+        "description": "app.models.article",
+        "isExtraImport": true,
+        "detail": "app.models.article",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "app.models.article",
+        "description": "app.models.article",
+        "isExtraImport": true,
+        "detail": "app.models.article",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "app.models.article",
+        "description": "app.models.article",
+        "isExtraImport": true,
+        "detail": "app.models.article",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "app.models.article",
+        "description": "app.models.article",
+        "isExtraImport": true,
+        "detail": "app.models.article",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "app.models.article",
+        "description": "app.models.article",
+        "isExtraImport": true,
+        "detail": "app.models.article",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "app.models.article",
+        "description": "app.models.article",
+        "isExtraImport": true,
+        "detail": "app.models.article",
+        "documentation": {}
+    },
+    {
+        "label": "AccountCreate",
+        "importPath": "app.schemas.account",
+        "description": "app.schemas.account",
+        "isExtraImport": true,
+        "detail": "app.schemas.account",
+        "documentation": {}
+    },
+    {
+        "label": "AccountUpdate",
+        "importPath": "app.schemas.account",
+        "description": "app.schemas.account",
+        "isExtraImport": true,
+        "detail": "app.schemas.account",
+        "documentation": {}
+    },
+    {
+        "label": "AccountResponse",
+        "importPath": "app.schemas.account",
+        "description": "app.schemas.account",
+        "isExtraImport": true,
+        "detail": "app.schemas.account",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.core.logger",
+        "description": "app.core.logger",
+        "isExtraImport": true,
+        "detail": "app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.core.logger",
+        "description": "app.core.logger",
+        "isExtraImport": true,
+        "detail": "app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.core.logger",
+        "description": "app.core.logger",
+        "isExtraImport": true,
+        "detail": "app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.core.logger",
+        "description": "app.core.logger",
+        "isExtraImport": true,
+        "detail": "app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.core.logger",
+        "description": "app.core.logger",
+        "isExtraImport": true,
+        "detail": "app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.core.logger",
+        "description": "app.core.logger",
+        "isExtraImport": true,
+        "detail": "app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.core.logger",
+        "description": "app.core.logger",
+        "isExtraImport": true,
+        "detail": "app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.core.logger",
+        "description": "app.core.logger",
+        "isExtraImport": true,
+        "detail": "app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "CrawlTask",
+        "importPath": "app.models.crawl_task",
+        "description": "app.models.crawl_task",
+        "isExtraImport": true,
+        "detail": "app.models.crawl_task",
+        "documentation": {}
+    },
+    {
+        "label": "CrawlTask",
+        "importPath": "app.models.crawl_task",
+        "description": "app.models.crawl_task",
+        "isExtraImport": true,
+        "detail": "app.models.crawl_task",
+        "documentation": {}
+    },
+    {
+        "label": "CrawlTask",
+        "importPath": "app.models.crawl_task",
+        "description": "app.models.crawl_task",
+        "isExtraImport": true,
+        "detail": "app.models.crawl_task",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "BigInteger",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "HttpUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "decode_access_token",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "GenericCrawler",
+        "importPath": "app.crawler.generic_crawler",
+        "description": "app.crawler.generic_crawler",
+        "isExtraImport": true,
+        "detail": "app.crawler.generic_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "GenericCrawler",
+        "importPath": "app.crawler.generic_crawler",
+        "description": "app.crawler.generic_crawler",
+        "isExtraImport": true,
+        "detail": "app.crawler.generic_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "GenericCrawler",
+        "importPath": "app.crawler.generic_crawler",
+        "description": "app.crawler.generic_crawler",
+        "isExtraImport": true,
+        "detail": "app.crawler.generic_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "app.models.file",
+        "description": "app.models.file",
+        "isExtraImport": true,
+        "detail": "app.models.file",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "urljoin",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_qs",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_qs",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_qs",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_qs",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleExtractor",
+        "importPath": "app.crawler.extractor",
+        "description": "app.crawler.extractor",
+        "isExtraImport": true,
+        "detail": "app.crawler.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "launch",
+        "importPath": "pyppeteer",
+        "description": "pyppeteer",
+        "isExtraImport": true,
+        "detail": "pyppeteer",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "html2text",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "html2text",
+        "description": "html2text",
+        "detail": "html2text",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "Browser",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "BrowserContext",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "BrowserPool",
+        "importPath": "app.services.crawler.browser_pool",
+        "description": "app.services.crawler.browser_pool",
+        "isExtraImport": true,
+        "detail": "app.services.crawler.browser_pool",
+        "documentation": {}
+    },
+    {
+        "label": "BrowserPool",
+        "importPath": "app.services.crawler.browser_pool",
+        "description": "app.services.crawler.browser_pool",
+        "isExtraImport": true,
+        "detail": "app.services.crawler.browser_pool",
+        "documentation": {}
+    },
+    {
+        "label": "BrowserPool",
+        "importPath": "app.services.crawler.browser_pool",
+        "description": "app.services.crawler.browser_pool",
+        "isExtraImport": true,
+        "detail": "app.services.crawler.browser_pool",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOScheduler",
+        "importPath": "apscheduler.schedulers.asyncio",
+        "description": "apscheduler.schedulers.asyncio",
+        "isExtraImport": true,
+        "detail": "apscheduler.schedulers.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "WeChatCrawler",
+        "importPath": "app.services.crawler.wechat_crawler",
+        "description": "app.services.crawler.wechat_crawler",
+        "isExtraImport": true,
+        "detail": "app.services.crawler.wechat_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "app.api.v1",
+        "description": "app.api.v1",
+        "isExtraImport": true,
+        "detail": "app.api.v1",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "importPath": "app.api.v1",
+        "description": "app.api.v1",
+        "isExtraImport": true,
+        "detail": "app.api.v1",
+        "documentation": {}
+    },
+    {
+        "label": "files",
+        "importPath": "app.api.v1",
+        "description": "app.api.v1",
+        "isExtraImport": true,
+        "detail": "app.api.v1",
+        "documentation": {}
+    },
+    {
+        "label": "accounts",
+        "importPath": "app.api.v1",
+        "description": "app.api.v1",
+        "isExtraImport": true,
+        "detail": "app.api.v1",
+        "documentation": {}
+    },
+    {
+        "label": "articles",
+        "importPath": "app.api.v1",
+        "description": "app.api.v1",
+        "isExtraImport": true,
+        "detail": "app.api.v1",
+        "documentation": {}
+    },
+    {
+        "label": "tasks",
+        "importPath": "app.api.v1",
+        "description": "app.api.v1",
+        "isExtraImport": true,
+        "detail": "app.api.v1",
+        "documentation": {}
+    },
+    {
+        "label": "crawler",
+        "importPath": "app.api.v1",
+        "description": "app.api.v1",
+        "isExtraImport": true,
+        "detail": "app.api.v1",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutError",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "create_account",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.accounts",
+        "description": "backend.app.api.v1.accounts",
+        "peekOfCode": "def create_account(\n    account: AccountCreate,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    添加公众号\n    支持两种方式：\n    - **方式一**：提供公众号的文章链接，系统自动提取 biz\n    - **方式二**：直接提供 biz 参数\n    - **url**: 公众号任意文章链接（可选）",
+        "detail": "backend.app.api.v1.accounts",
+        "documentation": {}
+    },
+    {
+        "label": "get_accounts",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.accounts",
+        "description": "backend.app.api.v1.accounts",
+        "peekOfCode": "def get_accounts(\n    skip: int = Query(0, description=\"跳过数量\"),\n    limit: int = Query(100, description=\"返回数量\"),\n    active_only: bool = Query(False, description=\"仅返回活跃的公众号\"),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    获取公众号列表\n    - **skip**: 跳过前 N 条记录\n    - **limit**: 返回记录数",
+        "detail": "backend.app.api.v1.accounts",
+        "documentation": {}
+    },
+    {
+        "label": "get_account",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.accounts",
+        "description": "backend.app.api.v1.accounts",
+        "peekOfCode": "def get_account(\n    account_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"获取指定公众号的详细信息\"\"\"\n    account = db.query(Account).filter(Account.id == account_id).first()\n    if not account:\n        raise HTTPException(status_code=404, detail=\"公众号不存在\")\n    return account\n@router.put(\"/{account_id}\", response_model=AccountResponse, summary=\"更新公众号\")",
+        "detail": "backend.app.api.v1.accounts",
+        "documentation": {}
+    },
+    {
+        "label": "update_account",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.accounts",
+        "description": "backend.app.api.v1.accounts",
+        "peekOfCode": "def update_account(\n    account_id: int,\n    account_update: AccountUpdate,\n    db: Session = Depends(get_db)\n):\n    \"\"\"更新公众号信息\"\"\"\n    account = db.query(Account).filter(Account.id == account_id).first()\n    if not account:\n        raise HTTPException(status_code=404, detail=\"公众号不存在\")\n    # 更新字段",
+        "detail": "backend.app.api.v1.accounts",
+        "documentation": {}
+    },
+    {
+        "label": "delete_account",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.accounts",
+        "description": "backend.app.api.v1.accounts",
+        "peekOfCode": "def delete_account(\n    account_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    删除公众号\n    注意：删除公众号会同时删除其所有关联的文章记录\n    \"\"\"\n    account = db.query(Account).filter(Account.id == account_id).first()\n    if not account:",
+        "detail": "backend.app.api.v1.accounts",
+        "documentation": {}
+    },
+    {
+        "label": "trigger_crawl",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.accounts",
+        "description": "backend.app.api.v1.accounts",
+        "peekOfCode": "def trigger_crawl(\n    account_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    立即触发指定公众号的抓取任务\n    该操作是异步的，会立即返回任务已触发\n    \"\"\"\n    account = db.query(Account).filter(Account.id == account_id).first()\n    if not account:",
+        "detail": "backend.app.api.v1.accounts",
+        "documentation": {}
+    },
+    {
+        "label": "toggle_account",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.accounts",
+        "description": "backend.app.api.v1.accounts",
+        "peekOfCode": "def toggle_account(\n    account_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"切换公众号的启用/禁用状态\"\"\"\n    account = db.query(Account).filter(Account.id == account_id).first()\n    if not account:\n        raise HTTPException(status_code=404, detail=\"公众号不存在\")\n    account.is_active = not account.is_active\n    account.updated_at = datetime.utcnow()",
+        "detail": "backend.app.api.v1.accounts",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.accounts",
+        "description": "backend.app.api.v1.accounts",
+        "peekOfCode": "router = APIRouter(prefix=\"/accounts\", tags=[\"公众号管理\"])\n@router.post(\"\", response_model=AccountResponse, summary=\"添加公众号\")\ndef create_account(\n    account: AccountCreate,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    添加公众号\n    支持两种方式：\n    - **方式一**：提供公众号的文章链接，系统自动提取 biz",
+        "detail": "backend.app.api.v1.accounts",
+        "documentation": {}
+    },
+    {
+        "label": "get_articles",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.articles",
+        "description": "backend.app.api.v1.articles",
+        "peekOfCode": "def get_articles(\n    account_id: Optional[int] = Query(None, description=\"公众号 ID\"),\n    keyword: Optional[str] = Query(None, description=\"关键词搜索\"),\n    start_date: Optional[str] = Query(None, description=\"开始日期 (YYYY-MM-DD)\"),\n    end_date: Optional[str] = Query(None, description=\"结束日期 (YYYY-MM-DD)\"),\n    page: int = Query(1, ge=1, description=\"页码\"),\n    page_size: int = Query(20, ge=1, le=100, description=\"每页数量\"),\n    db: Session = Depends(get_db)\n):\n    \"\"\"",
+        "detail": "backend.app.api.v1.articles",
+        "documentation": {}
+    },
+    {
+        "label": "get_article",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.articles",
+        "description": "backend.app.api.v1.articles",
+        "peekOfCode": "def get_article(\n    article_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"获取文章详情\"\"\"\n    article = db.query(Article).filter(Article.id == article_id).first()\n    if not article:\n        raise HTTPException(status_code=404, detail=\"文章不存在\")\n    # 填充公众号名称\n    account = db.query(Account).filter(Account.id == article.account_id).first()",
+        "detail": "backend.app.api.v1.articles",
+        "documentation": {}
+    },
+    {
+        "label": "get_article_markdown",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.articles",
+        "description": "backend.app.api.v1.articles",
+        "peekOfCode": "def get_article_markdown(\n    article_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    获取文章的原始 Markdown 内容（纯文本）\n    如果 Markdown 文件不存在或读取失败，返回空字符串\n    \"\"\"\n    article = db.query(Article).filter(Article.id == article_id).first()\n    if not article:",
+        "detail": "backend.app.api.v1.articles",
+        "documentation": {}
+    },
+    {
+        "label": "delete_article",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.articles",
+        "description": "backend.app.api.v1.articles",
+        "peekOfCode": "def delete_article(\n    article_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"删除指定文章\"\"\"\n    article = db.query(Article).filter(Article.id == article_id).first()\n    if not article:\n        raise HTTPException(status_code=404, detail=\"文章不存在\")\n    article_title = article.title\n    db.delete(article)",
+        "detail": "backend.app.api.v1.articles",
+        "documentation": {}
+    },
+    {
+        "label": "get_stats",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.articles",
+        "description": "backend.app.api.v1.articles",
+        "peekOfCode": "def get_stats(\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    获取平台统计数据\n    - 总公众号数\n    - 活跃公众号数\n    - 总文章数\n    - 最近一次抓取时间\n    \"\"\"",
+        "detail": "backend.app.api.v1.articles",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.articles",
+        "description": "backend.app.api.v1.articles",
+        "peekOfCode": "router = APIRouter(prefix=\"/articles\", tags=[\"文章管理\"])\n@router.get(\"\", summary=\"获取文章列表\")\ndef get_articles(\n    account_id: Optional[int] = Query(None, description=\"公众号 ID\"),\n    keyword: Optional[str] = Query(None, description=\"关键词搜索\"),\n    start_date: Optional[str] = Query(None, description=\"开始日期 (YYYY-MM-DD)\"),\n    end_date: Optional[str] = Query(None, description=\"结束日期 (YYYY-MM-DD)\"),\n    page: int = Query(1, ge=1, description=\"页码\"),\n    page_size: int = Query(20, ge=1, le=100, description=\"每页数量\"),\n    db: Session = Depends(get_db)",
+        "detail": "backend.app.api.v1.articles",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegister",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "class UserRegister(BaseModel):\n    \"\"\"用户注册请求\"\"\"\n    username: str\n    email: EmailStr\n    password: str\n    @field_validator('username')\n    def validate_username(cls, v):\n        if len(v) < 3 or len(v) > 20:\n            raise ValueError('用户名长度必须在 3-20 个字符之间')\n        return v",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "class UserResponse(BaseModel):\n    \"\"\"用户响应\"\"\"\n    id: int\n    username: str\n    email: str\n    role: str\n    created_at: str\nclass TokenResponse(BaseModel):\n    \"\"\"Token 响应\"\"\"\n    access_token: str",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "TokenResponse",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    \"\"\"Token 响应\"\"\"\n    access_token: str\n    token_type: str\n    user: dict\nclass ChangePasswordRequest(BaseModel):\n    \"\"\"修改密码请求\"\"\"\n    current_password: str\n    new_password: str\n    @field_validator('new_password')",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ChangePasswordRequest",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "class ChangePasswordRequest(BaseModel):\n    \"\"\"修改密码请求\"\"\"\n    current_password: str\n    new_password: str\n    @field_validator('new_password')\n    def validate_new_password(cls, v):\n        if len(v) < 6:\n            raise ValueError('新密码长度不能少于 6 位')\n        return v\nclass UpdateUserRequest(BaseModel):",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateUserRequest",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "class UpdateUserRequest(BaseModel):\n    \"\"\"更新用户信息请求\"\"\"\n    username: Optional[str] = None\n    email: Optional[EmailStr] = None\n    @field_validator('username')\n    def validate_username(cls, v):\n        if v is not None and (len(v) < 3 or len(v) > 20):\n            raise ValueError('用户名长度必须在 3-20 个字符之间')\n        return v\nclass DeleteUserRequest(BaseModel):",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteUserRequest",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "class DeleteUserRequest(BaseModel):\n    \"\"\"删除用户请求\"\"\"\n    password: str\n@router.post(\"/register\", status_code=status.HTTP_201_CREATED)\ndef register(\n    user_data: UserRegister,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    用户注册",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "def register(\n    user_data: UserRegister,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    用户注册\n    \"\"\"\n    # 检查用户名是否已存在\n    statement = select(User).where(User.username == user_data.username)\n    result = db.execute(statement)",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "def login(\n    form_data: OAuth2PasswordRequestForm = Depends(),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    用户登录（OAuth2 密码流程）\n    \"\"\"\n    # 查找用户（通过用户名或邮箱）\n    statement = select(User).where(\n        (User.username == form_data.username) | (User.email == form_data.username)",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "def logout(db: Session = Depends(get_db)):\n    \"\"\"\n    用户登出（客户端需要删除 token）\n    \"\"\"\n    return {\"message\": \"Successfully logged out\"}\n@router.get(\"/me\")\ndef get_current_user_info(\n    credentials = Depends(security),\n    db: Session = Depends(get_db)\n):",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user_info",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "def get_current_user_info(\n    credentials = Depends(security),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    获取当前用户信息\n    \"\"\"\n    # 从 credentials 中提取 token\n    token = credentials.credentials\n    # 解析 token 获取用户 ID",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "change_password",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "def change_password(\n    password_data: ChangePasswordRequest,\n    credentials = Depends(security),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    修改当前用户密码\n    \"\"\"\n    # 从 token 获取用户 ID\n    token = credentials.credentials",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "update_profile",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "def update_profile(\n    user_data: UpdateUserRequest,\n    credentials = Depends(security),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    更新当前用户信息\n    \"\"\"\n    # 从 token 获取用户 ID\n    token = credentials.credentials",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "delete_account",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "def delete_account(\n    delete_data: DeleteUserRequest = Body(...),\n    credentials = Depends(security),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    删除当前账号（需要密码确认）\n    \"\"\"\n    # 从 token 获取用户 ID\n    token = credentials.credentials",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "router = APIRouter()\n# HTTP Bearer 认证（用于从 Authorization 头提取 token）\nsecurity = HTTPBearer()\nclass UserRegister(BaseModel):\n    \"\"\"用户注册请求\"\"\"\n    username: str\n    email: EmailStr\n    password: str\n    @field_validator('username')\n    def validate_username(cls, v):",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.auth",
+        "description": "backend.app.api.v1.auth",
+        "peekOfCode": "security = HTTPBearer()\nclass UserRegister(BaseModel):\n    \"\"\"用户注册请求\"\"\"\n    username: str\n    email: EmailStr\n    password: str\n    @field_validator('username')\n    def validate_username(cls, v):\n        if len(v) < 3 or len(v) > 20:\n            raise ValueError('用户名长度必须在 3-20 个字符之间')",
+        "detail": "backend.app.api.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "CrawlURLRequest",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.crawler",
+        "description": "backend.app.api.v1.crawler",
+        "peekOfCode": "class CrawlURLRequest(BaseModel):\n    \"\"\"抓取单个 URL 请求\"\"\"\n    url: str\n    user_id: Optional[int] = None\nclass BatchCrawlURLsRequest(BaseModel):\n    \"\"\"批量抓取 URL 请求\"\"\"\n    urls: List[str]\n    user_id: Optional[int] = None\nclass WeChatArticleRequest(BaseModel):\n    \"\"\"微信文章抓取请求\"\"\"",
+        "detail": "backend.app.api.v1.crawler",
+        "documentation": {}
+    },
+    {
+        "label": "BatchCrawlURLsRequest",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.crawler",
+        "description": "backend.app.api.v1.crawler",
+        "peekOfCode": "class BatchCrawlURLsRequest(BaseModel):\n    \"\"\"批量抓取 URL 请求\"\"\"\n    urls: List[str]\n    user_id: Optional[int] = None\nclass WeChatArticleRequest(BaseModel):\n    \"\"\"微信文章抓取请求\"\"\"\n    url: str\n    account_id: Optional[int] = None\n    user_id: Optional[int] = None\nclass WeChatAccountCrawlRequest(BaseModel):",
+        "detail": "backend.app.api.v1.crawler",
+        "documentation": {}
+    },
+    {
+        "label": "WeChatArticleRequest",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.crawler",
+        "description": "backend.app.api.v1.crawler",
+        "peekOfCode": "class WeChatArticleRequest(BaseModel):\n    \"\"\"微信文章抓取请求\"\"\"\n    url: str\n    account_id: Optional[int] = None\n    user_id: Optional[int] = None\nclass WeChatAccountCrawlRequest(BaseModel):\n    \"\"\"微信公众号抓取请求\"\"\"\n    account_id: int\n    limit: Optional[int] = 10\n# API 端点",
+        "detail": "backend.app.api.v1.crawler",
+        "documentation": {}
+    },
+    {
+        "label": "WeChatAccountCrawlRequest",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.crawler",
+        "description": "backend.app.api.v1.crawler",
+        "peekOfCode": "class WeChatAccountCrawlRequest(BaseModel):\n    \"\"\"微信公众号抓取请求\"\"\"\n    account_id: int\n    limit: Optional[int] = 10\n# API 端点\n@router.post(\"/crawl/url\")\nasync def crawl_single_url(\n    request: CrawlURLRequest,\n    db: Session = Depends(get_db)\n):",
+        "detail": "backend.app.api.v1.crawler",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.crawler",
+        "description": "backend.app.api.v1.crawler",
+        "peekOfCode": "router = APIRouter()\n# Pydantic 模型\nclass CrawlURLRequest(BaseModel):\n    \"\"\"抓取单个 URL 请求\"\"\"\n    url: str\n    user_id: Optional[int] = None\nclass BatchCrawlURLsRequest(BaseModel):\n    \"\"\"批量抓取 URL 请求\"\"\"\n    urls: List[str]\n    user_id: Optional[int] = None",
+        "detail": "backend.app.api.v1.crawler",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_category",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def get_file_category(filename: str) -> str:\n    \"\"\"根据文件扩展名获取文件类别\"\"\"\n    ext = Path(filename).suffix.lower()\n    for category, extensions in ALLOWED_EXTENSIONS.items():\n        if ext in extensions:\n            return category\n    return \"other\"\ndef validate_file(filename: str, file_size: int) -> tuple[bool, Optional[str]]:\n    \"\"\"验证文件\"\"\"\n    ext = Path(filename).suffix.lower()",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "validate_file",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def validate_file(filename: str, file_size: int) -> tuple[bool, Optional[str]]:\n    \"\"\"验证文件\"\"\"\n    ext = Path(filename).suffix.lower()\n    # 检查文件大小\n    if file_size > MAX_FILE_SIZE:\n        return False, f\"文件大小超过限制（最大 {MAX_FILE_SIZE // (1024 * 1024)}MB）\"\n    # 检查文件扩展名\n    all_extensions = set()\n    for extensions in ALLOWED_EXTENSIONS.values():\n        all_extensions.update(extensions)",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "format_file_size",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def format_file_size(size: int) -> str:\n    \"\"\"格式化文件大小\"\"\"\n    for unit in ['B', 'KB', 'MB', 'GB']:\n        if size < 1024.0:\n            return f\"{size:.2f} {unit}\"\n        size /= 1024.0\n    return f\"{size:.2f} TB\"\n@router.post(\"/upload\")\ndef upload_file(\n    file: UploadFile = FastAPIFile(...),",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "upload_file",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def upload_file(\n    file: UploadFile = FastAPIFile(...),\n    current_user: UserModel = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"上传文件\"\"\"\n    try:\n        # 读取文件内容\n        content = file.file.read()\n        file_size = len(content)",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "list_files",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def list_files(\n    skip: int = 0,\n    limit: int = 20,\n    category: Optional[str] = None,\n    current_user: UserModel = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"获取文件列表\"\"\"\n    try:\n        query = db.query(FileModel).filter(FileModel.uploaded_by == current_user.id)",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_info",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def get_file_info(\n    file_id: int,\n    current_user: UserModel = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"获取文件信息\"\"\"\n    try:\n        file = db.query(FileModel).filter(\n            FileModel.id == file_id,\n            FileModel.uploaded_by == current_user.id",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "download_file",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def download_file(\n    file_id: int,\n    current_user: UserModel = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"下载文件\"\"\"\n    try:\n        file = db.query(FileModel).filter(\n            FileModel.id == file_id,\n            FileModel.uploaded_by == current_user.id",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "preview_file",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def preview_file(\n    file_id: int,\n    current_user: UserModel = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"预览文件（仅支持图片）\"\"\"\n    try:\n        file = db.query(FileModel).filter(\n            FileModel.id == file_id,\n            FileModel.uploaded_by == current_user.id",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "delete_file",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def delete_file(\n    file_id: int,\n    current_user: UserModel = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"删除文件\"\"\"\n    try:\n        file = db.query(FileModel).filter(\n            FileModel.id == file_id,\n            FileModel.uploaded_by == current_user.id",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_stats",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "def get_file_stats(\n    current_user: UserModel = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"获取文件统计信息\"\"\"\n    try:\n        # 获取所有文件\n        files = db.query(FileModel).filter(FileModel.uploaded_by == current_user.id).all()\n        # 统计信息\n        total_count = len(files)",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_DIR",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "UPLOAD_DIR = Path(\"data/files\")\nUPLOAD_DIR.mkdir(parents=True, exist_ok=True)\n# 允许的文件类型\nALLOWED_EXTENSIONS = {\n    \"image\": {\".jpg\", \".jpeg\", \".png\", \".gif\", \".webp\", \".bmp\"},\n    \"document\": {\".pdf\", \".doc\", \".docx\", \".txt\", \".md\", \".xls\", \".xlsx\", \".ppt\", \".pptx\"},\n    \"archive\": {\".zip\", \".rar\", \".7z\", \".tar\", \".gz\"}\n}\n# 最大文件大小 (50MB)\nMAX_FILE_SIZE = 50 * 1024 * 1024",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_EXTENSIONS",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "ALLOWED_EXTENSIONS = {\n    \"image\": {\".jpg\", \".jpeg\", \".png\", \".gif\", \".webp\", \".bmp\"},\n    \"document\": {\".pdf\", \".doc\", \".docx\", \".txt\", \".md\", \".xls\", \".xlsx\", \".ppt\", \".pptx\"},\n    \"archive\": {\".zip\", \".rar\", \".7z\", \".tar\", \".gz\"}\n}\n# 最大文件大小 (50MB)\nMAX_FILE_SIZE = 50 * 1024 * 1024\nrouter = APIRouter()\ndef get_file_category(filename: str) -> str:\n    \"\"\"根据文件扩展名获取文件类别\"\"\"",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_FILE_SIZE",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "MAX_FILE_SIZE = 50 * 1024 * 1024\nrouter = APIRouter()\ndef get_file_category(filename: str) -> str:\n    \"\"\"根据文件扩展名获取文件类别\"\"\"\n    ext = Path(filename).suffix.lower()\n    for category, extensions in ALLOWED_EXTENSIONS.items():\n        if ext in extensions:\n            return category\n    return \"other\"\ndef validate_file(filename: str, file_size: int) -> tuple[bool, Optional[str]]:",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.files",
+        "description": "backend.app.api.v1.files",
+        "peekOfCode": "router = APIRouter()\ndef get_file_category(filename: str) -> str:\n    \"\"\"根据文件扩展名获取文件类别\"\"\"\n    ext = Path(filename).suffix.lower()\n    for category, extensions in ALLOWED_EXTENSIONS.items():\n        if ext in extensions:\n            return category\n    return \"other\"\ndef validate_file(filename: str, file_size: int) -> tuple[bool, Optional[str]]:\n    \"\"\"验证文件\"\"\"",
+        "detail": "backend.app.api.v1.files",
+        "documentation": {}
+    },
+    {
+        "label": "get_tasks",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.tasks",
+        "description": "backend.app.api.v1.tasks",
+        "peekOfCode": "def get_tasks(\n    account_id: int = Query(None, description=\"公众号 ID\"),\n    status: str = Query(None, description=\"任务状态\"),\n    page: int = Query(1, ge=1, description=\"页码\"),\n    page_size: int = Query(20, ge=1, le=100, description=\"每页数量\"),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    获取抓取任务列表（支持分页、筛选）\n    - **account_id**: 指定公众号 ID",
+        "detail": "backend.app.api.v1.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "get_task",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.tasks",
+        "description": "backend.app.api.v1.tasks",
+        "peekOfCode": "def get_task(\n    task_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"获取指定任务的详细信息\"\"\"\n    task = db.query(CrawlTask).filter(CrawlTask.id == task_id).first()\n    if not task:\n        raise HTTPException(status_code=404, detail=\"任务不存在\")\n    # 填充公众号名称\n    account = db.query(Account).filter(Account.id == task.account_id).first()",
+        "detail": "backend.app.api.v1.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.tasks",
+        "description": "backend.app.api.v1.tasks",
+        "peekOfCode": "def health_check(\n    account_id: int = Query(..., description=\"公众号 ID\"),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    执行公众号健康检查\n    检查公众号是否可以访问\n    \"\"\"\n    account = db.query(Account).filter(Account.id == account_id).first()\n    if not account:",
+        "detail": "backend.app.api.v1.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.tasks",
+        "description": "backend.app.api.v1.tasks",
+        "peekOfCode": "router = APIRouter(prefix=\"/tasks\", tags=[\"任务管理\"])\n@router.get(\"\", summary=\"获取任务列表\")\ndef get_tasks(\n    account_id: int = Query(None, description=\"公众号 ID\"),\n    status: str = Query(None, description=\"任务状态\"),\n    page: int = Query(1, ge=1, description=\"页码\"),\n    page_size: int = Query(20, ge=1, le=100, description=\"每页数量\"),\n    db: Session = Depends(get_db)\n):\n    \"\"\"",
+        "detail": "backend.app.api.v1.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.users",
+        "description": "backend.app.api.v1.users",
+        "peekOfCode": "class UserCreate(BaseModel):\n    \"\"\"创建用户请求\"\"\"\n    username: str\n    email: str\n    password: str\n    role: str = \"user\"\nclass UserUpdate(BaseModel):\n    \"\"\"更新用户请求\"\"\"\n    role: Optional[str] = None\n@router.get(\"/\")",
+        "detail": "backend.app.api.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "kind": 6,
+        "importPath": "backend.app.api.v1.users",
+        "description": "backend.app.api.v1.users",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    \"\"\"更新用户请求\"\"\"\n    role: Optional[str] = None\n@router.get(\"/\")\ndef get_users(\n    skip: int = 0,\n    limit: int = 100,\n    db: Session = Depends(get_db)\n):\n    \"\"\"",
+        "detail": "backend.app.api.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_users",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.users",
+        "description": "backend.app.api.v1.users",
+        "peekOfCode": "def get_users(\n    skip: int = 0,\n    limit: int = 100,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    获取用户列表（需要管理员权限，临时开放）\n    \"\"\"\n    # 查询总数\n    statement = select(User)",
+        "detail": "backend.app.api.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.users",
+        "description": "backend.app.api.v1.users",
+        "peekOfCode": "def get_user(\n    user_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    获取指定用户信息\n    \"\"\"\n    statement = select(User).where(User.id == user_id)\n    result = db.execute(statement)\n    user = result.scalar_one_or_none()",
+        "detail": "backend.app.api.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.users",
+        "description": "backend.app.api.v1.users",
+        "peekOfCode": "def create_user(\n    user_data: UserCreate,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    创建新用户\n    \"\"\"\n    # 检查用户名是否已存在\n    statement = select(User).where(User.username == user_data.username)\n    result = db.execute(statement)",
+        "detail": "backend.app.api.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.users",
+        "description": "backend.app.api.v1.users",
+        "peekOfCode": "def update_user(\n    user_id: int,\n    user_data: UserUpdate,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    更新用户信息\n    \"\"\"\n    statement = select(User).where(User.id == user_id)\n    result = db.execute(statement)",
+        "detail": "backend.app.api.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "backend.app.api.v1.users",
+        "description": "backend.app.api.v1.users",
+        "peekOfCode": "def delete_user(\n    user_id: int,\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    删除用户\n    \"\"\"\n    statement = select(User).where(User.id == user_id)\n    result = db.execute(statement)\n    user = result.scalar_one_or_none()",
+        "detail": "backend.app.api.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.v1.users",
+        "description": "backend.app.api.v1.users",
+        "peekOfCode": "router = APIRouter()\nclass UserCreate(BaseModel):\n    \"\"\"创建用户请求\"\"\"\n    username: str\n    email: str\n    password: str\n    role: str = \"user\"\nclass UserUpdate(BaseModel):\n    \"\"\"更新用户请求\"\"\"\n    role: Optional[str] = None",
+        "detail": "backend.app.api.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "backend.app.core.config",
+        "description": "backend.app.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    # API 配置\n    API_HOST: str = \"0.0.0.0\"\n    API_PORT: int = 8000\n    # 数据库配置\n    DATABASE_URL: str = \"sqlite:///./data/wechat.db\"\n    # 调度配置\n    CRAWL_INTERVAL_HOURS: int = 6\n    CLEANUP_DAYS: int = 30\n    # 浏览器配置",
+        "detail": "backend.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "backend.app.core.config",
+        "description": "backend.app.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "backend.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logger",
+        "kind": 2,
+        "importPath": "backend.app.core.logger",
+        "description": "backend.app.core.logger",
+        "peekOfCode": "def setup_logger():\n    \"\"\"配置日志系统\"\"\"\n    # 确保日志目录存在\n    log_dir = Path(settings.LOG_DIR)\n    log_dir.mkdir(parents=True, exist_ok=True)\n    # 移除默认的处理器\n    logger.remove()\n    # 控制台输出\n    logger.add(\n        sys.stdout,",
+        "detail": "backend.app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.core.logger",
+        "description": "backend.app.core.logger",
+        "peekOfCode": "logger = setup_logger()",
+        "detail": "backend.app.core.logger",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"验证密码\"\"\"\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    \"\"\"生成密码哈希\"\"\"\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"创建 access token\"\"\"\n    to_encode = data.copy()\n    if expires_delta:",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def get_password_hash(password: str) -> str:\n    \"\"\"生成密码哈希\"\"\"\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"创建 access token\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"创建 access token\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)\n    return encoded_jwt",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "decode_access_token",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def decode_access_token(token: str) -> Optional[dict]:\n    \"\"\"解码 access token\"\"\"\n    try:\n        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])\n        return payload\n    except JWTError:\n        return None\ndef get_current_user(\n    credentials: HTTPAuthorizationCredentials = Depends(security),\n    db: Session = Depends(get_db)",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def get_current_user(\n    credentials: HTTPAuthorizationCredentials = Depends(security),\n    db: Session = Depends(get_db)\n):\n    \"\"\"\n    从 JWT token 中获取当前用户\n    \"\"\"\n    token = credentials.credentials\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_admin_user",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def get_admin_user(\n    current_user: User = Depends(get_current_user)\n):\n    \"\"\"获取管理员用户，如果不是管理员则抛出异常\"\"\"\n    if current_user.role != \"admin\":\n        raise HTTPException(\n            status_code=status.HTTP_403_FORBIDDEN,\n            detail=\"Not enough permissions\"\n        )\n    return current_user",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "pwd_context = CryptContext(\n    schemes=[\"pbkdf2_sha256\"],\n    deprecated=\"auto\",\n    pbkdf2_sha256__default_rounds=29000\n)\n# HTTP Bearer 认证\nsecurity = HTTPBearer()\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"验证密码\"\"\"\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "security = HTTPBearer()\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"验证密码\"\"\"\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    \"\"\"生成密码哈希\"\"\"\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"创建 access token\"\"\"\n    to_encode = data.copy()",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleExtractor",
+        "kind": 6,
+        "importPath": "backend.app.crawler.extractor",
+        "description": "backend.app.crawler.extractor",
+        "peekOfCode": "class ArticleExtractor:\n    \"\"\"文章内容提取器\"\"\"\n    def __init__(self, url, html_content):\n        self.url = url\n        self.html = html_content\n        self.soup = BeautifulSoup(html_content, 'html.parser')\n    def extract(self):\n        \"\"\"\n        提取文章内容\n        返回: {",
+        "detail": "backend.app.crawler.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "GenericCrawler",
+        "kind": 6,
+        "importPath": "backend.app.crawler.generic_crawler",
+        "description": "backend.app.crawler.generic_crawler",
+        "peekOfCode": "class GenericCrawler:\n    \"\"\"通用网页爬虫\"\"\"\n    def __init__(self, db: Session):\n        self.db = db\n        self.session = requests.Session()\n        self.session.headers.update({\n            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'\n        })\n    def crawl_url(self, url: str, user_id: int = None) -> dict:\n        \"\"\"",
+        "detail": "backend.app.crawler.generic_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "WeChatCrawler",
+        "kind": 6,
+        "importPath": "backend.app.crawler.wechat_crawler",
+        "description": "backend.app.crawler.wechat_crawler",
+        "peekOfCode": "class WeChatCrawler:\n    \"\"\"微信公众号爬虫\"\"\"\n    def __init__(self, db: Session):\n        self.db = db\n        self.generic_crawler = GenericCrawler(db)\n        self.base_url = \"https://mp.weixin.qq.com\"\n    async def crawl_account_articles(self, account_id: int, limit: int = 10) -> dict:\n        \"\"\"\n        抓取指定公众号的文章列表\n        Args:",
+        "detail": "backend.app.crawler.wechat_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "def get_db():\n    \"\"\"获取数据库会话（同步）\"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\nasync def get_async_db():\n    \"\"\"获取数据库会话（异步）\"\"\"\n    async with AsyncSessionLocal() as session:",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "def init_db():\n    \"\"\"初始化数据库表\"\"\"\n    from app.models.account import Base\n    logger.info(f\"正在初始化数据库: {DATABASE_URL}\")\n    Base.metadata.create_all(bind=engine)\n    logger.info(\"数据库表创建成功\")\ndef drop_db():\n    \"\"\"删除所有表（慎用！）\"\"\"\n    from app.models.account import Base\n    logger.warning(\"正在删除所有数据库表...\")",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "drop_db",
+        "kind": 2,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "def drop_db():\n    \"\"\"删除所有表（慎用！）\"\"\"\n    from app.models.account import Base\n    logger.warning(\"正在删除所有数据库表...\")\n    Base.metadata.drop_all(bind=engine)\n    logger.info(\"数据库表已删除\")",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "data_dir",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "data_dir = Path(\"data\")\ndata_dir.mkdir(parents=True, exist_ok=True)\n# 创建 SQLite 引擎（同步）\nDATABASE_URL = settings.DATABASE_URL\nengine = create_engine(\n    DATABASE_URL,\n    connect_args={\"check_same_thread\": False} if \"sqlite\" in DATABASE_URL else {},\n    echo=False  # 设置为True可以看到SQL语句\n)\n# 创建会话工厂（同步）",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "DATABASE_URL = settings.DATABASE_URL\nengine = create_engine(\n    DATABASE_URL,\n    connect_args={\"check_same_thread\": False} if \"sqlite\" in DATABASE_URL else {},\n    echo=False  # 设置为True可以看到SQL语句\n)\n# 创建会话工厂（同步）\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 创建异步引擎（用于 async/await）\nAsyncDatabaseURL = DATABASE_URL.replace(\"sqlite://\", \"sqlite+aiosqlite://\")",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "engine = create_engine(\n    DATABASE_URL,\n    connect_args={\"check_same_thread\": False} if \"sqlite\" in DATABASE_URL else {},\n    echo=False  # 设置为True可以看到SQL语句\n)\n# 创建会话工厂（同步）\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 创建异步引擎（用于 async/await）\nAsyncDatabaseURL = DATABASE_URL.replace(\"sqlite://\", \"sqlite+aiosqlite://\")\nasync_engine = create_async_engine(",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 创建异步引擎（用于 async/await）\nAsyncDatabaseURL = DATABASE_URL.replace(\"sqlite://\", \"sqlite+aiosqlite://\")\nasync_engine = create_async_engine(\n    AsyncDatabaseURL,\n    echo=False\n)\n# 创建异步会话工厂\nAsyncSessionLocal = sessionmaker(async_engine, class_=AsyncSession, expire_on_commit=False)\n# 基类",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncDatabaseURL",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "AsyncDatabaseURL = DATABASE_URL.replace(\"sqlite://\", \"sqlite+aiosqlite://\")\nasync_engine = create_async_engine(\n    AsyncDatabaseURL,\n    echo=False\n)\n# 创建异步会话工厂\nAsyncSessionLocal = sessionmaker(async_engine, class_=AsyncSession, expire_on_commit=False)\n# 基类\nBase = declarative_base()\ndef get_db():",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "async_engine = create_async_engine(\n    AsyncDatabaseURL,\n    echo=False\n)\n# 创建异步会话工厂\nAsyncSessionLocal = sessionmaker(async_engine, class_=AsyncSession, expire_on_commit=False)\n# 基类\nBase = declarative_base()\ndef get_db():\n    \"\"\"获取数据库会话（同步）\"\"\"",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "AsyncSessionLocal = sessionmaker(async_engine, class_=AsyncSession, expire_on_commit=False)\n# 基类\nBase = declarative_base()\ndef get_db():\n    \"\"\"获取数据库会话（同步）\"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "backend.app.db.base",
+        "description": "backend.app.db.base",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    \"\"\"获取数据库会话（同步）\"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\nasync def get_async_db():\n    \"\"\"获取数据库会话（异步）\"\"\"",
+        "detail": "backend.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "backend.app.models.account",
+        "description": "backend.app.models.account",
+        "peekOfCode": "class Account(Base):\n    \"\"\"公众号表模型\"\"\"\n    __tablename__ = \"accounts\"\n    id = Column(Integer, primary_key=True, index=True, autoincrement=True)\n    biz = Column(String(100), unique=True, nullable=False, index=True)\n    name = Column(String(200), nullable=False)\n    avatar_url = Column(Text, nullable=True)\n    is_active = Column(Boolean, default=True, nullable=False)\n    last_crawl_time = Column(DateTime(timezone=True), nullable=True)\n    article_count = Column(Integer, default=0)",
+        "detail": "backend.app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "get_now",
+        "kind": 2,
+        "importPath": "backend.app.models.account",
+        "description": "backend.app.models.account",
+        "peekOfCode": "def get_now():\n    \"\"\"获取当前时间（带时区）\"\"\"\n    return datetime.now(timezone.utc)\nclass Account(Base):\n    \"\"\"公众号表模型\"\"\"\n    __tablename__ = \"accounts\"\n    id = Column(Integer, primary_key=True, index=True, autoincrement=True)\n    biz = Column(String(100), unique=True, nullable=False, index=True)\n    name = Column(String(200), nullable=False)\n    avatar_url = Column(Text, nullable=True)",
+        "detail": "backend.app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "kind": 6,
+        "importPath": "backend.app.models.article",
+        "description": "backend.app.models.article",
+        "peekOfCode": "class Article(Base):\n    \"\"\"文章表模型\"\"\"\n    __tablename__ = \"articles\"\n    id = Column(Integer, primary_key=True, index=True, autoincrement=True)\n    account_id = Column(Integer, ForeignKey(\"accounts.id\"), index=True, nullable=True)  # 通用抓取可以为null\n    user_id = Column(Integer, ForeignKey(\"users.id\"), index=True, nullable=False)  # 必须关联一个用户\n    # 文章基本信息\n    title = Column(String(500), nullable=False, index=True)\n    url = Column(String(500), nullable=False, unique=True, index=True)\n    author = Column(String(200), nullable=True)",
+        "detail": "backend.app.models.article",
+        "documentation": {}
+    },
+    {
+        "label": "get_now",
+        "kind": 2,
+        "importPath": "backend.app.models.article",
+        "description": "backend.app.models.article",
+        "peekOfCode": "def get_now():\n    \"\"\"获取当前时间（带时区）\"\"\"\n    return datetime.now(timezone.utc)\nclass Article(Base):\n    \"\"\"文章表模型\"\"\"\n    __tablename__ = \"articles\"\n    id = Column(Integer, primary_key=True, index=True, autoincrement=True)\n    account_id = Column(Integer, ForeignKey(\"accounts.id\"), index=True, nullable=True)  # 通用抓取可以为null\n    user_id = Column(Integer, ForeignKey(\"users.id\"), index=True, nullable=False)  # 必须关联一个用户\n    # 文章基本信息",
+        "detail": "backend.app.models.article",
+        "documentation": {}
+    },
+    {
+        "label": "CrawlTask",
+        "kind": 6,
+        "importPath": "backend.app.models.crawl_task",
+        "description": "backend.app.models.crawl_task",
+        "peekOfCode": "class CrawlTask(Base):\n    \"\"\"抓取任务表模型\"\"\"\n    __tablename__ = \"crawl_tasks\"\n    id = Column(Integer, primary_key=True, index=True, autoincrement=True)\n    account_id = Column(Integer, nullable=True, index=True)\n    status = Column(String(20), nullable=False, default='pending')  # pending, running, success, failed\n    article_count = Column(Integer, default=0)\n    error_message = Column(Text, nullable=True)\n    started_at = Column(DateTime(timezone=True), nullable=True)\n    finished_at = Column(DateTime(timezone=True), nullable=True)",
+        "detail": "backend.app.models.crawl_task",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "kind": 6,
+        "importPath": "backend.app.models.file",
+        "description": "backend.app.models.file",
+        "peekOfCode": "class File(Base):\n    __tablename__ = \"files\"\n    id = Column(Integer, primary_key=True, index=True)\n    filename = Column(String(255), nullable=False)\n    original_filename = Column(String(255), nullable=False)\n    file_path = Column(String(500), nullable=False)\n    file_size = Column(BigInteger, nullable=False)  # 文件大小（字节）\n    mime_type = Column(String(100), nullable=False)  # MIME 类型\n    uploaded_by = Column(Integer, ForeignKey(\"users.id\"), nullable=False)\n    uploaded_at = Column(DateTime, default=datetime.utcnow)",
+        "detail": "backend.app.models.file",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class User(Base):\n    \"\"\"用户表模型\"\"\"\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True, autoincrement=True)\n    username = Column(String(50), unique=True, nullable=False, index=True)\n    email = Column(String(100), unique=True, nullable=False, index=True)\n    password_hash = Column(String(255), nullable=False)\n    role = Column(String(20), default='user')  # 'admin' or 'user'\n    created_at = Column(DateTime(timezone=True), server_default=func.now())\n    updated_at = Column(DateTime(timezone=True), onupdate=func.now())",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "AccountBase",
+        "kind": 6,
+        "importPath": "backend.app.schemas.account",
+        "description": "backend.app.schemas.account",
+        "peekOfCode": "class AccountBase(BaseModel):\n    \"\"\"公众号基础模型\"\"\"\n    name: str = Field(..., min_length=1, max_length=200)\n    biz: Optional[str] = None  # 添加公众号时可以不提供，从 URL 提取\n    avatar_url: Optional[str] = None\n    is_active: bool = True\nclass AccountCreate(AccountBase):\n    \"\"\"创建公众号\"\"\"\n    url: Optional[str] = Field(None, description=\"公众号任意文章链接（可选，如果提供了 biz 则不需要）\")\nclass AccountUpdate(BaseModel):",
+        "detail": "backend.app.schemas.account",
+        "documentation": {}
+    },
+    {
+        "label": "AccountCreate",
+        "kind": 6,
+        "importPath": "backend.app.schemas.account",
+        "description": "backend.app.schemas.account",
+        "peekOfCode": "class AccountCreate(AccountBase):\n    \"\"\"创建公众号\"\"\"\n    url: Optional[str] = Field(None, description=\"公众号任意文章链接（可选，如果提供了 biz 则不需要）\")\nclass AccountUpdate(BaseModel):\n    \"\"\"更新公众号\"\"\"\n    name: Optional[str] = None\n    avatar_url: Optional[str] = None\n    is_active: Optional[bool] = None\nclass AccountResponse(BaseModel):\n    \"\"\"公众号响应\"\"\"",
+        "detail": "backend.app.schemas.account",
+        "documentation": {}
+    },
+    {
+        "label": "AccountUpdate",
+        "kind": 6,
+        "importPath": "backend.app.schemas.account",
+        "description": "backend.app.schemas.account",
+        "peekOfCode": "class AccountUpdate(BaseModel):\n    \"\"\"更新公众号\"\"\"\n    name: Optional[str] = None\n    avatar_url: Optional[str] = None\n    is_active: Optional[bool] = None\nclass AccountResponse(BaseModel):\n    \"\"\"公众号响应\"\"\"\n    id: int\n    biz: str\n    name: str",
+        "detail": "backend.app.schemas.account",
+        "documentation": {}
+    },
+    {
+        "label": "AccountResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.account",
+        "description": "backend.app.schemas.account",
+        "peekOfCode": "class AccountResponse(BaseModel):\n    \"\"\"公众号响应\"\"\"\n    id: int\n    biz: str\n    name: str\n    avatar_url: Optional[str]\n    is_active: bool\n    last_crawl_time: Optional[datetime]\n    article_count: int\n    created_at: datetime",
+        "detail": "backend.app.schemas.account",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleBase",
+        "kind": 6,
+        "importPath": "backend.app.schemas.article",
+        "description": "backend.app.schemas.article",
+        "peekOfCode": "class ArticleBase(BaseModel):\n    \"\"\"文章基础模型\"\"\"\n    account_id: int\n    title: str\n    url: str\n    publish_time: datetime\nclass ArticleResponse(BaseModel):\n    \"\"\"文章响应\"\"\"\n    id: int\n    account_id: int",
+        "detail": "backend.app.schemas.article",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.article",
+        "description": "backend.app.schemas.article",
+        "peekOfCode": "class ArticleResponse(BaseModel):\n    \"\"\"文章响应\"\"\"\n    id: int\n    account_id: int\n    account_name: Optional[str] = None  # 关联查询时填充\n    title: str\n    url: str\n    publish_time: datetime\n    markdown_path: Optional[str]\n    read_count: int",
+        "detail": "backend.app.schemas.article",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleListResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.article",
+        "description": "backend.app.schemas.article",
+        "peekOfCode": "class ArticleListResponse(BaseModel):\n    \"\"\"文章列表响应\"\"\"\n    items: list[ArticleResponse]\n    total: int\n    page: int\n    page_size: int\nclass ArticleDetailResponse(ArticleResponse):\n    \"\"\"文章详情响应（包含 Markdown）\"\"\"\n    markdown_content: Optional[str] = None",
+        "detail": "backend.app.schemas.article",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleDetailResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.article",
+        "description": "backend.app.schemas.article",
+        "peekOfCode": "class ArticleDetailResponse(ArticleResponse):\n    \"\"\"文章详情响应（包含 Markdown）\"\"\"\n    markdown_content: Optional[str] = None",
+        "detail": "backend.app.schemas.article",
+        "documentation": {}
+    },
+    {
+        "label": "TaskBase",
+        "kind": 6,
+        "importPath": "backend.app.schemas.task",
+        "description": "backend.app.schemas.task",
+        "peekOfCode": "class TaskBase(BaseModel):\n    \"\"\"任务基础模型\"\"\"\n    account_id: int\n    status: str\nclass TaskResponse(BaseModel):\n    \"\"\"任务响应\"\"\"\n    id: int\n    account_id: int\n    account_name: Optional[str] = None  # 关联查询时填充\n    status: str",
+        "detail": "backend.app.schemas.task",
+        "documentation": {}
+    },
+    {
+        "label": "TaskResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.task",
+        "description": "backend.app.schemas.task",
+        "peekOfCode": "class TaskResponse(BaseModel):\n    \"\"\"任务响应\"\"\"\n    id: int\n    account_id: int\n    account_name: Optional[str] = None  # 关联查询时填充\n    status: str\n    article_count: int\n    error_message: Optional[str]\n    started_at: Optional[datetime]\n    finished_at: Optional[datetime]",
+        "detail": "backend.app.schemas.task",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas.task",
+        "description": "backend.app.schemas.task",
+        "peekOfCode": "class TaskListResponse(BaseModel):\n    \"\"\"任务列表响应\"\"\"\n    items: list[TaskResponse]\n    total: int\n    page: int\n    page_size: int",
+        "detail": "backend.app.schemas.task",
+        "documentation": {}
+    },
+    {
+        "label": "BrowserPool",
+        "kind": 6,
+        "importPath": "backend.app.services.crawler.browser_pool",
+        "description": "backend.app.services.crawler.browser_pool",
+        "peekOfCode": "class BrowserPool:\n    \"\"\"浏览器实例池 - 支持登录态管理\"\"\"\n    def __init__(self, max_instances: int = None):\n        self.max_instances = max_instances or settings.MAX_BROWSERS\n        self.browsers: List[Browser] = []\n        self.contexts: List[BrowserContext] = []\n        self.playwright = None\n        self.auth_session_dir = Path(settings.AUTH_SESSIONS_DIR)\n    async def init(self):\n        \"\"\"初始化浏览器池，自动加载可用的登录态\"\"\"",
+        "detail": "backend.app.services.crawler.browser_pool",
+        "documentation": {}
+    },
+    {
+        "label": "WeChatCrawler",
+        "kind": 6,
+        "importPath": "backend.app.services.crawler.wechat_crawler",
+        "description": "backend.app.services.crawler.wechat_crawler",
+        "peekOfCode": "class WeChatCrawler:\n    \"\"\"微信文章爬虫\"\"\"\n    def __init__(self, browser_pool: BrowserPool):\n        self.browser_pool = browser_pool\n        self.h2t = html2text.HTML2Text()\n        self.h2t.ignore_links = False\n        self.h2t.body_width = 0\n        self.h2t.ignore_images = False\n        self.h2t.unicode_snob = True\n    @staticmethod",
+        "detail": "backend.app.services.crawler.wechat_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "TaskScheduler",
+        "kind": 6,
+        "importPath": "backend.app.services.scheduler",
+        "description": "backend.app.services.scheduler",
+        "peekOfCode": "class TaskScheduler:\n    \"\"\"定时任务调度器\"\"\"\n    def __init__(self):\n        self.scheduler = AsyncIOScheduler()\n        self.browser_pool: Optional[BrowserPool] = None\n        self.crawler: Optional[WeChatCrawler] = None\n    async def init(self):\n        \"\"\"初始化调度器\"\"\"\n        logger.info(\"正在初始化调度器...\")\n        # 初始化浏览器池",
+        "detail": "backend.app.services.scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "task_scheduler",
+        "kind": 5,
+        "importPath": "backend.app.services.scheduler",
+        "description": "backend.app.services.scheduler",
+        "peekOfCode": "task_scheduler = TaskScheduler()",
+        "detail": "backend.app.services.scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"微信公众号抓取平台\",\n    description=\"自动化抓取、管理、搜索微信公众号文章\",\n    version=\"1.0.0\",\n    lifespan=lifespan\n)\n# 配置 CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=settings.CORS_ORIGINS.split(\",\"),",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_url",
+        "kind": 2,
+        "importPath": "backend.extract_article",
+        "description": "backend.extract_article",
+        "peekOfCode": "def normalize_url(url):\n    \"\"\"标准化 URL，确保带有 ?scene=1\"\"\"\n    if not url.startswith('https://mp.weixin.qq.com/'):\n        raise ValueError(\"不是微信公众号文章链接\")\n    # 检查是否已有 scene=1\n    if '?scene=1' in url:\n        return url\n    # 如果没有 query params，直接追加\n    if '?' not in url:\n        return url + '?scene=1'",
+        "detail": "backend.extract_article",
+        "documentation": {}
+    },
+    {
+        "label": "create_initial_users",
+        "kind": 2,
+        "importPath": "backend.init_db",
+        "description": "backend.init_db",
+        "peekOfCode": "def create_initial_users():\n    \"\"\"创建初始用户\"\"\"\n    db = SessionLocal()\n    try:\n        # 检查是否已经有 admin 用户\n        admin_user = db.query(User).filter(User.username == \"admin\").first()\n        if admin_user:\n            print(f\"✓ Admin 用户已存在（ID: {admin_user.id}）\")\n            # 更新密码\n            hashed_password = pwd_context.hash(\"admin123\")",
+        "detail": "backend.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "backend.init_db",
+        "description": "backend.init_db",
+        "peekOfCode": "pwd_context = CryptContext(\n    schemes=[\"pbkdf2_sha256\"],\n    deprecated=\"auto\"\n)\n# 数据库 URL\nDATABASE_URL = \"sqlite:///./data/wechat.db\"\n# 创建引擎\nengine = create_engine(DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 导入模型",
+        "detail": "backend.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.init_db",
+        "description": "backend.init_db",
+        "peekOfCode": "DATABASE_URL = \"sqlite:///./data/wechat.db\"\n# 创建引擎\nengine = create_engine(DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 导入模型\nfrom app.db.base import Base\nfrom app.models.user import User\n# 创建所有表\nBase.metadata.create_all(bind=engine)\ndef create_initial_users():",
+        "detail": "backend.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "backend.init_db",
+        "description": "backend.init_db",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 导入模型\nfrom app.db.base import Base\nfrom app.models.user import User\n# 创建所有表\nBase.metadata.create_all(bind=engine)\ndef create_initial_users():\n    \"\"\"创建初始用户\"\"\"\n    db = SessionLocal()",
+        "detail": "backend.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "backend.init_db",
+        "description": "backend.init_db",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 导入模型\nfrom app.db.base import Base\nfrom app.models.user import User\n# 创建所有表\nBase.metadata.create_all(bind=engine)\ndef create_initial_users():\n    \"\"\"创建初始用户\"\"\"\n    db = SessionLocal()\n    try:",
+        "detail": "backend.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "get_account_biz_articles",
+        "kind": 2,
+        "importPath": "crawl_articles",
+        "description": "crawl_articles",
+        "peekOfCode": "def get_account_biz_articles(account_biz: str) -> List[str]:\n    \"\"\"\n    从微信公众号主页获取文章 URL 列表\n    注意：此功能需要有效的登录态和反爬处理\n    由于微信反爬机制，实际使用时需要：\n    1. 手动登录一次获取 Cookie\n    2. 保存并复用登录态\n    3. 处理验证码等反爬措施\n    这里返回一个示例结构\n    \"\"\"",
+        "detail": "crawl_articles",
+        "documentation": {}
+    },
+    {
+        "label": "crawl_articles_for_account",
+        "kind": 2,
+        "importPath": "crawl_articles",
+        "description": "crawl_articles",
+        "peekOfCode": "def crawl_articles_for_account(account_id: int, limit: int = None) -> dict:\n    \"\"\"\n    为特定公众号抓取文章\n    Args:\n        account_id: 公众号 ID\n        limit: 限制抓取数量（可选）\n    Returns:\n        抓取结果统计\n    \"\"\"\n    db = SessionLocal()",
+        "detail": "crawl_articles",
+        "documentation": {}
+    },
+    {
+        "label": "crawl_all_accounts",
+        "kind": 2,
+        "importPath": "crawl_articles",
+        "description": "crawl_articles",
+        "peekOfCode": "def crawl_all_accounts(limit: int = None) -> dict:\n    \"\"\"\n    抓取所有活跃的公众号\n    Args:\n        limit: 每个公众号限制抓取数量\n    Returns:\n        总体抓取统计\n    \"\"\"\n    db = SessionLocal()\n    try:",
+        "detail": "crawl_articles",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "crawl_articles",
+        "description": "crawl_articles",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description='微信公众号定时抓取脚本')\n    # 抓取模式\n    mode_group = parser.add_mutually_exclusive_group(required=True)\n    mode_group.add_argument('--account-id', type=int, help='抓取指定公众号（ID）')\n    mode_group.add_argument('--all', action='store_true', help='抓取所有活跃公众号')\n    # 其他参数\n    parser.add_argument('--limit', type=int, help='限制抓取数量')\n    parser.add_argument('--test', action='store_true', help='测试模式，仅验证不实际抓取')\n    args = parser.parse_args()",
+        "detail": "crawl_articles",
+        "documentation": {}
+    },
+    {
+        "label": "SCRIPT_DIR",
+        "kind": 5,
+        "importPath": "crawl_articles",
+        "description": "crawl_articles",
+        "peekOfCode": "SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))\nBACKEND_DIR = os.path.join(SCRIPT_DIR, 'backend')\nsys.path.insert(0, BACKEND_DIR)\nos.chdir(BACKEND_DIR)\nimport argparse\nimport logging\nfrom datetime import datetime\nfrom typing import List, Optional\n# 使用爬虫功能\n# 注意：这里需要后端实现完整的公众号历史抓取功能",
+        "detail": "crawl_articles",
+        "documentation": {}
+    },
+    {
+        "label": "BACKEND_DIR",
+        "kind": 5,
+        "importPath": "crawl_articles",
+        "description": "crawl_articles",
+        "peekOfCode": "BACKEND_DIR = os.path.join(SCRIPT_DIR, 'backend')\nsys.path.insert(0, BACKEND_DIR)\nos.chdir(BACKEND_DIR)\nimport argparse\nimport logging\nfrom datetime import datetime\nfrom typing import List, Optional\n# 使用爬虫功能\n# 注意：这里需要后端实现完整的公众号历史抓取功能\n# 暂时使用简单的示例结构",
+        "detail": "crawl_articles",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "crawl_articles",
+        "description": "crawl_articles",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef get_account_biz_articles(account_biz: str) -> List[str]:\n    \"\"\"\n    从微信公众号主页获取文章 URL 列表\n    注意：此功能需要有效的登录态和反爬处理\n    由于微信反爬机制，实际使用时需要：\n    1. 手动登录一次获取 Cookie\n    2. 保存并复用登录态\n    3. 处理验证码等反爬措施\n    这里返回一个示例结构",
+        "detail": "crawl_articles",
+        "documentation": {}
+    },
+    {
+        "label": "get_public_account_articles",
+        "kind": 2,
+        "importPath": "crawl_history",
+        "description": "crawl_history",
+        "peekOfCode": "def get_public_account_articles(account_biz: str, account_name: str = \"未知\") -> List[dict]:\n    \"\"\"\n    获取公众号历史文章列表\n    Args:\n        account_biz: 公众号的 biz 参数\n        account_name: 公众号名称（用于日志）\n    Returns:\n        文章列表，每个元素包含 url, title, publish_time 等信息\n    \"\"\"\n    logger.info(f\"开始抓取公众号历史文章: {account_name} (biz: {account_biz})\")",
+        "detail": "crawl_history",
+        "documentation": {}
+    },
+    {
+        "label": "crawl_account_history",
+        "kind": 2,
+        "importPath": "crawl_history",
+        "description": "crawl_history",
+        "peekOfCode": "def crawl_account_history(account_id: int, save_to_file: bool = True) -> dict:\n    \"\"\"\n    为指定公众号抓取历史文章\n    Args:\n        account_id: 公众号 ID\n        save_to_file: 是否保存到文件\n    Returns:\n        抓取结果统计\n    \"\"\"\n    db = SessionLocal()",
+        "detail": "crawl_history",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "crawl_history",
+        "description": "crawl_history",
+        "peekOfCode": "def main():\n    import argparse\n    parser = argparse.ArgumentParser(description='微信公众号历史文章抓取')\n    parser.add_argument('--account-id', type=int, required=True,\n                       help='公众号 ID')\n    parser.add_argument('--no-save', action='store_true',\n                       help='不保存到文件')\n    args = parser.parse_args()\n    logger.info(\"=\" * 60)\n    logger.info(\"微信公众号历史文章抓取\")",
+        "detail": "crawl_history",
+        "documentation": {}
+    },
+    {
+        "label": "SCRIPT_DIR",
+        "kind": 5,
+        "importPath": "crawl_history",
+        "description": "crawl_history",
+        "peekOfCode": "SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))\nBACKEND_DIR = os.path.join(SCRIPT_DIR, 'backend')\nsys.path.insert(0, BACKEND_DIR)\nos.chdir(BACKEND_DIR)\nimport logging\nfrom playwright.sync_api import sync_playwright\nfrom app.db.base import SessionLocal\nfrom app.models.account import Account\n# 配置日志\nlogging.basicConfig(",
+        "detail": "crawl_history",
+        "documentation": {}
+    },
+    {
+        "label": "BACKEND_DIR",
+        "kind": 5,
+        "importPath": "crawl_history",
+        "description": "crawl_history",
+        "peekOfCode": "BACKEND_DIR = os.path.join(SCRIPT_DIR, 'backend')\nsys.path.insert(0, BACKEND_DIR)\nos.chdir(BACKEND_DIR)\nimport logging\nfrom playwright.sync_api import sync_playwright\nfrom app.db.base import SessionLocal\nfrom app.models.account import Account\n# 配置日志\nlogging.basicConfig(\n    level=logging.INFO,",
+        "detail": "crawl_history",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "crawl_history",
+        "description": "crawl_history",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef get_public_account_articles(account_biz: str, account_name: str = \"未知\") -> List[dict]:\n    \"\"\"\n    获取公众号历史文章列表\n    Args:\n        account_biz: 公众号的 biz 参数\n        account_name: 公众号名称（用于日志）\n    Returns:\n        文章列表，每个元素包含 url, title, publish_time 等信息\n    \"\"\"",
+        "detail": "crawl_history",
+        "documentation": {}
+    },
+    {
+        "label": "get_public_account_articles",
+        "kind": 2,
+        "importPath": "crawl_history_v2",
+        "description": "crawl_history_v2",
+        "peekOfCode": "def get_public_account_articles(account_biz: str, account_name: str = \"未知\") -> List[dict]:\n    \"\"\"\n    获取公众号历史文章列表（改进版）\n    Args:\n        account_biz: 公众号的 biz 参数\n        account_name: 公众号名称（用于日志）\n    Returns:\n        文章列表\n    \"\"\"\n    logger.info(f\"开始抓取公众号历史文章: {account_name} (biz: {account_biz})\")",
+        "detail": "crawl_history_v2",
+        "documentation": {}
+    },
+    {
+        "label": "crawl_account_history",
+        "kind": 2,
+        "importPath": "crawl_history_v2",
+        "description": "crawl_history_v2",
+        "peekOfCode": "def crawl_account_history(account_id: int, save_to_file: bool = True) -> dict:\n    \"\"\"\n    为指定公众号抓取历史文章\n    Args:\n        account_id: 公众号 ID\n        save_to_file: 是否保存到文件\n    Returns:\n        抓取结果统计\n    \"\"\"\n    db = SessionLocal()",
+        "detail": "crawl_history_v2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "crawl_history_v2",
+        "description": "crawl_history_v2",
+        "peekOfCode": "def main():\n    import argparse\n    parser = argparse.ArgumentParser(description='微信公众号历史文章抓取 v2')\n    parser.add_argument('--account-id', type=int, required=True,\n                       help='公众号 ID')\n    parser.add_argument('--no-save', action='store_true',\n                       help='不保存到文件')\n    parser.add_argument('--debug', action='store_true',\n                       help='调试模式（显示浏览器窗口）')\n    args = parser.parse_args()",
+        "detail": "crawl_history_v2",
+        "documentation": {}
+    },
+    {
+        "label": "SCRIPT_DIR",
+        "kind": 5,
+        "importPath": "crawl_history_v2",
+        "description": "crawl_history_v2",
+        "peekOfCode": "SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))\nBACKEND_DIR = os.path.join(SCRIPT_DIR, 'backend')\nsys.path.insert(0, BACKEND_DIR)\nos.chdir(BACKEND_DIR)\nimport logging\nfrom playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError\nfrom app.db.base import SessionLocal\nfrom app.models.account import Account\n# 配置日志\nlogging.basicConfig(",
+        "detail": "crawl_history_v2",
+        "documentation": {}
+    },
+    {
+        "label": "BACKEND_DIR",
+        "kind": 5,
+        "importPath": "crawl_history_v2",
+        "description": "crawl_history_v2",
+        "peekOfCode": "BACKEND_DIR = os.path.join(SCRIPT_DIR, 'backend')\nsys.path.insert(0, BACKEND_DIR)\nos.chdir(BACKEND_DIR)\nimport logging\nfrom playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError\nfrom app.db.base import SessionLocal\nfrom app.models.account import Account\n# 配置日志\nlogging.basicConfig(\n    level=logging.INFO,",
+        "detail": "crawl_history_v2",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "crawl_history_v2",
+        "description": "crawl_history_v2",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef get_public_account_articles(account_biz: str, account_name: str = \"未知\") -> List[dict]:\n    \"\"\"\n    获取公众号历史文章列表（改进版）\n    Args:\n        account_biz: 公众号的 biz 参数\n        account_name: 公众号名称（用于日志）\n    Returns:\n        文章列表\n    \"\"\"",
+        "detail": "crawl_history_v2",
+        "documentation": {}
+    },
+    {
+        "label": "get_biz_from_url",
+        "kind": 2,
+        "importPath": "get_biz",
+        "description": "get_biz",
+        "peekOfCode": "def get_biz_from_url(url):\n    \"\"\"从 URL 中提取 biz 参数\"\"\"\n    # 尝试从 URL 参数中提取\n    if '__biz=' in url:\n        biz_start = url.find('__biz=')\n        biz_end = url.find('&', biz_start)\n        if biz_end == -1:\n            biz_end = len(url.url)\n        biz = url[biz_start + 6:biz_end]\n        return biz",
+        "detail": "get_biz",
+        "documentation": {}
+    },
+    {
+        "label": "get_biz_from_page",
+        "kind": 2,
+        "importPath": "get_biz",
+        "description": "get_biz",
+        "peekOfCode": "def get_biz_from_page(url):\n    \"\"\"通过访问页面获取 biz 参数\"\"\"\n    with sync_playwright() as p:\n        # 启动浏览器\n        browser = p.chromium.launch(headless=True)\n        page = browser.new_page(user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')\n        try:\n            print(f\"正在访问: {url}\")\n            page.goto(url, timeout=30000)\n            # 等待页面加载",
+        "detail": "get_biz",
+        "documentation": {}
+    },
+    {
+        "label": "get_biz_from_history",
+        "kind": 2,
+        "importPath": "get_biz_interactive",
+        "description": "get_biz_interactive",
+        "peekOfCode": "def get_biz_from_history(article_url):\n    \"\"\"\n    从文章页面跳转到历史记录获取 biz\n    \"\"\"\n    with sync_playwright() as p:\n        browser = p.chromium.launch(headless=False)  # 使用非无头模式，可以看到操作\n        page = browser.new_page(\n            user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'\n        )\n        try:",
+        "detail": "get_biz_interactive",
+        "documentation": {}
+    },
+    {
+        "label": "get_biz_from_search",
+        "kind": 2,
+        "importPath": "get_biz_search",
+        "description": "get_biz_search",
+        "peekOfCode": "def get_biz_from_search(search_url):\n    \"\"\"通过搜索获取 biz 参数\"\"\"\n    with sync_playwright() as p:\n        browser = p.chromium.launch(headless=True)\n        page = browser.new_page(\n            user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'\n        )\n        try:\n            print(f\"正在访问搜索页面: {search_url}\")\n            page.goto(search_url, timeout=30000)",
+        "detail": "get_biz_search",
+        "documentation": {}
+    },
+    {
+        "label": "get_biz_from_profile",
+        "kind": 2,
+        "importPath": "get_biz_search",
+        "description": "get_biz_search",
+        "peekOfCode": "def get_biz_from_profile(account_name):\n    \"\"\"\n    通过公众号搜索获取 biz 参数\n    微信公众平台搜索：http://weixin.sogou.com/\n    \"\"\"\n    # 使用搜狗微信搜索\n    search_url = f\"http://weixin.sogou.com/weixin?type=1&query={account_name}&ie=utf8\"\n    with sync_playwright() as p:\n        browser = p.chromium.launch(headless=True)\n        page = browser.new_page(",
+        "detail": "get_biz_search",
+        "documentation": {}
+    },
+    {
+        "label": "Colors",
+        "kind": 6,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "class Colors:\n    GREEN = '\\033[0;32m'\n    YELLOW = '\\033[1;33m'\n    BLUE = '\\033[0;34m'\n    RED = '\\033[0;31m'\n    NC = '\\033[0m'\n    @classmethod\n    def print(cls, color, text):\n        print(f\"{color}{text}{cls.NC}\")\ndef paste_from_clipboard():",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "paste_from_clipboard",
+        "kind": 2,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "def paste_from_clipboard():\n    \"\"\"从剪贴板读取链接\"\"\"\n    try:\n        if sys.platform == 'darwin':  # macOS\n            result = subprocess.run(['pbpaste'], capture_output=True, text=True)\n            if result.returncode == 0:\n                return result.stdout.strip()\n        elif sys.platform.startswith('linux'):\n            # 尝试 xclip 或 xsel\n            for cmd in [['xclip', '-selection', 'clipboard', '-o'],",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "show_config",
+        "kind": 2,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "def show_config():\n    \"\"\"显示当前配置\"\"\"\n    if CONFIG_FILE.exists():\n        Colors.print(Colors.YELLOW, \"当前配置：\")\n        print(CONFIG_FILE.read_text(encoding='utf-8'))\n    else:\n        print(\"配置文件不存在，还没有配置任何链接\")\ndef clear_config():\n    \"\"\"清空配置\"\"\"\n    if CONFIG_FILE.exists():",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "clear_config",
+        "kind": 2,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "def clear_config():\n    \"\"\"清空配置\"\"\"\n    if CONFIG_FILE.exists():\n        backup_file = str(CONFIG_FILE) + f\".backup.{os.popen('date +%Y%m%d_%H%M%S').read().strip()}\"\n        import shutil\n        shutil.copy(CONFIG_FILE, backup_file)\n        Colors.print(Colors.GREEN, f\"✓ 配置已备份到: {backup_file}\")\n        CONFIG_FILE.write_text(\"\")\n        Colors.print(Colors.GREEN, \"✓ 配置已清空\")\n    else:",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "add_links",
+        "kind": 2,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "def add_links(urls, account_id=ACCOUNT_ID):\n    \"\"\"添加链接到配置\"\"\"\n    # 验证链接格式\n    valid_urls = []\n    for url in urls:\n        url = url.strip()\n        if not url:\n            continue\n        if not url.startswith('https://mp.weixin.qq.com/s/'):\n            Colors.print(Colors.YELLOW, f\"⚠️  警告: 链接格式可能不正确: {url[:50]}...\")",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "run_crawl",
+        "kind": 2,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "def run_crawl(account_id=ACCOUNT_ID):\n    \"\"\"运行抓取任务\"\"\"\n    print()\n    Colors.print(Colors.BLUE, \"=\" * 50)\n    Colors.print(Colors.BLUE, \"运行抓取任务\")\n    Colors.print(Colors.BLUE, \"=\" * 50)\n    print()\n    os.chdir(PROJECT_DIR)\n    # 显示将要抓取的链接\n    if CONFIG_FILE.exists():",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "def main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        description='微信文章链接快速添加工具（Python版本）',\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        epilog=\"\"\"\n示例:\n  %(prog)s --link 'https://mp.weixin.qq.com/s/xxx'\n  %(prog)s --paste --run\n  %(prog)s --interactive",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_DIR",
+        "kind": 5,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "PROJECT_DIR = Path.home() / \"Desktop\" / \"wechat-crawler-platform\"\nCONFIG_FILE = PROJECT_DIR / \"config\" / \"article_urls.txt\"\nACCOUNT_ID = 1  # 默认公众号 ID\nclass Colors:\n    GREEN = '\\033[0;32m'\n    YELLOW = '\\033[1;33m'\n    BLUE = '\\033[0;34m'\n    RED = '\\033[0;31m'\n    NC = '\\033[0m'\n    @classmethod",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_FILE",
+        "kind": 5,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "CONFIG_FILE = PROJECT_DIR / \"config\" / \"article_urls.txt\"\nACCOUNT_ID = 1  # 默认公众号 ID\nclass Colors:\n    GREEN = '\\033[0;32m'\n    YELLOW = '\\033[1;33m'\n    BLUE = '\\033[0;34m'\n    RED = '\\033[0;31m'\n    NC = '\\033[0m'\n    @classmethod\n    def print(cls, color, text):",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_ID",
+        "kind": 5,
+        "importPath": "quick_add",
+        "description": "quick_add",
+        "peekOfCode": "ACCOUNT_ID = 1  # 默认公众号 ID\nclass Colors:\n    GREEN = '\\033[0;32m'\n    YELLOW = '\\033[1;33m'\n    BLUE = '\\033[0;34m'\n    RED = '\\033[0;31m'\n    NC = '\\033[0m'\n    @classmethod\n    def print(cls, color, text):\n        print(f\"{color}{text}{cls.NC}\")",
+        "detail": "quick_add",
+        "documentation": {}
+    },
+    {
+        "label": "setup_cron",
+        "kind": 2,
+        "importPath": "setup_cron_7am",
+        "description": "setup_cron_7am",
+        "peekOfCode": "def setup_cron():\n    \"\"\"设置每天早上7点的定时任务\"\"\"\n    # 读取当前 crontab\n    result = subprocess.run(['crontab', '-l'], capture_output=True, text=True)\n    current_cron = result.stdout if result.returncode == 0 else \"\"\n    # 过滤掉旧的抓取任务\n    lines = []\n    skip_empty = True\n    for line in current_cron.split('\\n'):\n        if 'crawl_articles.py' in line:",
+        "detail": "setup_cron_7am",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "test-password",
+        "description": "test-password",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# 测试生成密码哈希\nplain_password = \"admin123\"\nhashed = pwd_context.hash(plain_password)\nprint(f\"明文密码: {plain_password}\")\nprint(f\"生成的哈希: {hashed}\")\nprint(f\"哈希长度: {len(hashed)}\")\nprint()\n# 测试验证\ntest_passwords = [\"admin123\", \"wrong_password\", \"admin\"]",
+        "detail": "test-password",
+        "documentation": {}
+    },
+    {
+        "label": "plain_password",
+        "kind": 5,
+        "importPath": "test-password",
+        "description": "test-password",
+        "peekOfCode": "plain_password = \"admin123\"\nhashed = pwd_context.hash(plain_password)\nprint(f\"明文密码: {plain_password}\")\nprint(f\"生成的哈希: {hashed}\")\nprint(f\"哈希长度: {len(hashed)}\")\nprint()\n# 测试验证\ntest_passwords = [\"admin123\", \"wrong_password\", \"admin\"]\nfor pwd in test_passwords:\n    result = pwd_context.verify(pwd, hashed)",
+        "detail": "test-password",
+        "documentation": {}
+    },
+    {
+        "label": "hashed",
+        "kind": 5,
+        "importPath": "test-password",
+        "description": "test-password",
+        "peekOfCode": "hashed = pwd_context.hash(plain_password)\nprint(f\"明文密码: {plain_password}\")\nprint(f\"生成的哈希: {hashed}\")\nprint(f\"哈希长度: {len(hashed)}\")\nprint()\n# 测试验证\ntest_passwords = [\"admin123\", \"wrong_password\", \"admin\"]\nfor pwd in test_passwords:\n    result = pwd_context.verify(pwd, hashed)\n    print(f\"验证 '{pwd}': {'✓ 成功' if result else '✗ 失败'}\")",
+        "detail": "test-password",
+        "documentation": {}
+    },
+    {
+        "label": "test_passwords",
+        "kind": 5,
+        "importPath": "test-password",
+        "description": "test-password",
+        "peekOfCode": "test_passwords = [\"admin123\", \"wrong_password\", \"admin\"]\nfor pwd in test_passwords:\n    result = pwd_context.verify(pwd, hashed)\n    print(f\"验证 '{pwd}': {'✓ 成功' if result else '✗ 失败'}\")\nprint()\n# 测试数据库中的哈希\ndb_hash = \"240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9\"\nprint(f\"数据库中的哈希: {db_hash}\")\nprint(f\"是否为 bcrypt 哈希: {db_hash.startswith('$2b$')}\")\ntry:",
+        "detail": "test-password",
+        "documentation": {}
+    },
+    {
+        "label": "db_hash",
+        "kind": 5,
+        "importPath": "test-password",
+        "description": "test-password",
+        "peekOfCode": "db_hash = \"240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9\"\nprint(f\"数据库中的哈希: {db_hash}\")\nprint(f\"是否为 bcrypt 哈希: {db_hash.startswith('$2b$')}\")\ntry:\n    result = pwd_context.verify(\"admin123\", db_hash)\n    print(f\"验证 'admin123' 对数据库哈希: {'✓ 成功' if result else '✗ 失败'}\")\nexcept Exception as e:\n    print(f\"验证失败异常: {type(e).__name__}: {e}\")",
+        "detail": "test-password",
+        "documentation": {}
+    },
+    {
+        "label": "test_biz_extraction",
+        "kind": 2,
+        "importPath": "test_biz_extraction",
+        "description": "test_biz_extraction",
+        "peekOfCode": "def test_biz_extraction():\n    \"\"\"测试从页面提取 biz 的各种方法\"\"\"\n    article_url = \"https://mp.weixin.qq.com/s/ZKXjKURWMMStlij6OhUbiA\"\n    with sync_playwright() as p:\n        browser = p.chromium.launch(headless=True)\n        page = browser.new_page(\n            user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'\n        )\n        try:\n            print(\"正在访问文章页面...\")",
+        "detail": "test_biz_extraction",
+        "documentation": {}
+    },
+    {
+        "label": "API_BASE",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "API_BASE = \"http://localhost:8000\"\nENDPOINT = f\"{API_BASE}/api/v1/files\"\n# 测试账号\nEMAIL = \"admin@example.com\"\nPASSWORD = \"admin123\"\nprint(\"=\" * 50)\nprint(\"文件管理功能测试\")\nprint(\"=\" * 50)\n# 1. 登录获取 Token\nprint(\"\\n[1/6] 登录获取 Token...\")",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "ENDPOINT",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "ENDPOINT = f\"{API_BASE}/api/v1/files\"\n# 测试账号\nEMAIL = \"admin@example.com\"\nPASSWORD = \"admin123\"\nprint(\"=\" * 50)\nprint(\"文件管理功能测试\")\nprint(\"=\" * 50)\n# 1. 登录获取 Token\nprint(\"\\n[1/6] 登录获取 Token...\")\nlogin_response = requests.post(",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "EMAIL = \"admin@example.com\"\nPASSWORD = \"admin123\"\nprint(\"=\" * 50)\nprint(\"文件管理功能测试\")\nprint(\"=\" * 50)\n# 1. 登录获取 Token\nprint(\"\\n[1/6] 登录获取 Token...\")\nlogin_response = requests.post(\n    f\"{API_BASE}/api/v1/auth/login\",\n    data={",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "PASSWORD",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "PASSWORD = \"admin123\"\nprint(\"=\" * 50)\nprint(\"文件管理功能测试\")\nprint(\"=\" * 50)\n# 1. 登录获取 Token\nprint(\"\\n[1/6] 登录获取 Token...\")\nlogin_response = requests.post(\n    f\"{API_BASE}/api/v1/auth/login\",\n    data={\n        \"username\": EMAIL,",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "login_response",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "login_response = requests.post(\n    f\"{API_BASE}/api/v1/auth/login\",\n    data={\n        \"username\": EMAIL,\n        \"password\": PASSWORD\n    }\n)\nif login_response.status_code != 200:\n    print(f\"❌ 登录失败: {login_response.text}\")\n    exit(1)",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "token",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "token = login_response.json()[\"access_token\"]\nprint(f\"✅ 登录成功\")\nprint(f\"Token: {token[:50]}...\")\n# 2. 测试上传文件\nprint(\"\\n[2/6] 测试上传文件...\")\n# 创建一个测试文件\nwith tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:\n    test_file = f.name\n    f.write(f\"This is a test file uploaded at {datetime.datetime.now()}\")\ntry:",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "list_response",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "list_response = requests.get(\n    f\"{ENDPOINT}/\",\n    headers={\"Authorization\": f\"Bearer {token}\"}\n)\nif list_response.status_code != 200:\n    print(f\"❌ 获取文件列表失败: {list_response.text}\")\n    exit(1)\nfiles = list_response.json()\nfile_count = len(files)\nprint(f\"✅ 获取文件列表成功\")",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "files",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "files = list_response.json()\nfile_count = len(files)\nprint(f\"✅ 获取文件列表成功\")\nprint(f\"文件总数: {file_count}\")\nif file_count > 0:\n    latest_file = files[0]\n    print(f\"最新文件:\")\n    print(f\"  - ID: {latest_file['id']}\")\n    print(f\"  - 文件名: {latest_file['original_filename']}\")\n    print(f\"  - 大小: {latest_file['file_size']}\")",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "file_count",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "file_count = len(files)\nprint(f\"✅ 获取文件列表成功\")\nprint(f\"文件总数: {file_count}\")\nif file_count > 0:\n    latest_file = files[0]\n    print(f\"最新文件:\")\n    print(f\"  - ID: {latest_file['id']}\")\n    print(f\"  - 文件名: {latest_file['original_filename']}\")\n    print(f\"  - 大小: {latest_file['file_size']}\")\n# 4. 测试获取文件信息",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "info_response",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "info_response = requests.get(\n    f\"{ENDPOINT}/{file_id}\",\n    headers={\"Authorization\": f\"Bearer {token}\"}\n)\nif info_response.status_code != 200:\n    print(f\"❌ 获取文件信息失败: {info_response.text}\")\n    exit(1)\ninfo_data = info_response.json()\noriginal_filename = info_data[\"original_filename\"]\nmime_type = info_data[\"mime_type\"]",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "info_data",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "info_data = info_response.json()\noriginal_filename = info_data[\"original_filename\"]\nmime_type = info_data[\"mime_type\"]\nuploaded_at = info_data[\"uploaded_at\"]\nprint(f\"✅ 获取文件信息成功\")\nprint(f\"文件名: {original_filename}\")\nprint(f\"MIME 类型: {mime_type}\")\nprint(f\"上传时间: {uploaded_at}\")\n# 5. 测试获取文件统计信息\nprint(\"\\n[5/6] 测试获取文件统计信息...\")",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "original_filename",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "original_filename = info_data[\"original_filename\"]\nmime_type = info_data[\"mime_type\"]\nuploaded_at = info_data[\"uploaded_at\"]\nprint(f\"✅ 获取文件信息成功\")\nprint(f\"文件名: {original_filename}\")\nprint(f\"MIME 类型: {mime_type}\")\nprint(f\"上传时间: {uploaded_at}\")\n# 5. 测试获取文件统计信息\nprint(\"\\n[5/6] 测试获取文件统计信息...\")\nstats_response = requests.get(",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "mime_type",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "mime_type = info_data[\"mime_type\"]\nuploaded_at = info_data[\"uploaded_at\"]\nprint(f\"✅ 获取文件信息成功\")\nprint(f\"文件名: {original_filename}\")\nprint(f\"MIME 类型: {mime_type}\")\nprint(f\"上传时间: {uploaded_at}\")\n# 5. 测试获取文件统计信息\nprint(\"\\n[5/6] 测试获取文件统计信息...\")\nstats_response = requests.get(\n    f\"{ENDPOINT}/stats/summary\",",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "uploaded_at",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "uploaded_at = info_data[\"uploaded_at\"]\nprint(f\"✅ 获取文件信息成功\")\nprint(f\"文件名: {original_filename}\")\nprint(f\"MIME 类型: {mime_type}\")\nprint(f\"上传时间: {uploaded_at}\")\n# 5. 测试获取文件统计信息\nprint(\"\\n[5/6] 测试获取文件统计信息...\")\nstats_response = requests.get(\n    f\"{ENDPOINT}/stats/summary\",\n    headers={\"Authorization\": f\"Bearer {token}\"}",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "stats_response",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "stats_response = requests.get(\n    f\"{ENDPOINT}/stats/summary\",\n    headers={\"Authorization\": f\"Bearer {token}\"}\n)\nif stats_response.status_code != 200:\n    print(f\"❌ 获取统计信息失败: {stats_response.text}\")\n    exit(1)\nstats_data = stats_response.json()\ntotal_count = stats_data[\"total_count\"]\ntotal_size = stats_data[\"total_size_formatted\"]",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "stats_data",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "stats_data = stats_response.json()\ntotal_count = stats_data[\"total_count\"]\ntotal_size = stats_data[\"total_size_formatted\"]\nprint(f\"✅ 获取统计信息成功\")\nprint(f\"总文件数: {total_count}\")\nprint(f\"总大小: {total_size}\")\n# 显示分类统计\nif \"categories\" in stats_data and stats_data[\"categories\"]:\n    print(f\"\\n分类统计:\")\n    for category, cat_stats in stats_data[\"categories\"].items():",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "total_count",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "total_count = stats_data[\"total_count\"]\ntotal_size = stats_data[\"total_size_formatted\"]\nprint(f\"✅ 获取统计信息成功\")\nprint(f\"总文件数: {total_count}\")\nprint(f\"总大小: {total_size}\")\n# 显示分类统计\nif \"categories\" in stats_data and stats_data[\"categories\"]:\n    print(f\"\\n分类统计:\")\n    for category, cat_stats in stats_data[\"categories\"].items():\n        print(f\"  - {category}: {cat_stats['count']} 个文件, {cat_stats['size_formatted']}\")",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "total_size",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "total_size = stats_data[\"total_size_formatted\"]\nprint(f\"✅ 获取统计信息成功\")\nprint(f\"总文件数: {total_count}\")\nprint(f\"总大小: {total_size}\")\n# 显示分类统计\nif \"categories\" in stats_data and stats_data[\"categories\"]:\n    print(f\"\\n分类统计:\")\n    for category, cat_stats in stats_data[\"categories\"].items():\n        print(f\"  - {category}: {cat_stats['count']} 个文件, {cat_stats['size_formatted']}\")\n# 6. 测试删除文件",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "delete_response",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "delete_response = requests.delete(\n    f\"{ENDPOINT}/{file_id}\",\n    headers={\"Authorization\": f\"Bearer {token}\"}\n)\nif delete_response.status_code != 200:\n    print(f\"❌ 文件删除失败: {delete_response.text}\")\n    exit(1)\ndelete_data = delete_response.json()\nmessage = delete_data[\"message\"]\nif message != \"文件删除成功\":",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "delete_data",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "delete_data = delete_response.json()\nmessage = delete_data[\"message\"]\nif message != \"文件删除成功\":\n    print(f\"❌ 文件删除失败: {message}\")\n    exit(1)\nprint(f\"✅ 文件删除成功\")\nprint(\"\\n\" + \"=\" * 50)\nprint(\"✅ 所有测试通过！\")\nprint(\"=\" * 50)\nprint(\"\\n文件管理功能已就绪\")",
+        "detail": "test_file_storage",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "test_file_storage",
+        "description": "test_file_storage",
+        "peekOfCode": "message = delete_data[\"message\"]\nif message != \"文件删除成功\":\n    print(f\"❌ 文件删除失败: {message}\")\n    exit(1)\nprint(f\"✅ 文件删除成功\")\nprint(\"\\n\" + \"=\" * 50)\nprint(\"✅ 所有测试通过！\")\nprint(\"=\" * 50)\nprint(\"\\n文件管理功能已就绪\")\nprint(f\"API 文档: {API_BASE}/docs\")",
+        "detail": "test_file_storage",
+        "documentation": {}
+    }
+]
